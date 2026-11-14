@@ -1,0 +1,92 @@
+[
+  {
+    "id": "JOB-001",
+    "company": "Canonical",
+    "title": "Python and Kubernetes Software Engineer - AI/ML & Analytics",
+    "url": "https://canonical.com/careers/all",
+    "score": 95,
+    "chars": 4271,
+    "clearance": 95.245361328125
+  },
+  {
+    "id": "JOB-002",
+    "company": "Hugging Face",
+    "title": "Machine Learning Engineer - Open Source",
+    "url": "https://huggingface.co/careers",
+    "score": 98,
+    "chars": 3933,
+    "clearance": 143.77294921875
+  },
+  {
+    "id": "JOB-003",
+    "company": "Automattic",
+    "title": "Backend AI Engineer",
+    "url": "https://automattic.com/work-with-us/",
+    "score": 95,
+    "chars": 4049,
+    "clearance": 119.35498046875
+  },
+  {
+    "id": "JOB-004",
+    "company": "AIApply",
+    "title": "Backend Engineer, Python",
+    "url": "https://www.indeed.com/q-worldwide-remote-python-backend-jobs.html",
+    "score": 99,
+    "chars": 4136,
+    "clearance": 131.11083984375
+  },
+  {
+    "id": "JOB-005",
+    "company": "CAST AI",
+    "title": "Senior Machine Learning Engineer / LLM Engineer",
+    "url": "https://cast.ai/careers/",
+    "score": 95,
+    "chars": 4065,
+    "clearance": 119.862548828125
+  },
+  {
+    "id": "JOB-006",
+    "company": "Proxify",
+    "title": "Senior ML Engineer (Python)",
+    "url": "https://proxify.io/jobs",
+    "score": 97,
+    "chars": 4014,
+    "clearance": 131.31005859375
+  },
+  {
+    "id": "JOB-007",
+    "company": "Deepshot Labs",
+    "title": "Backend Engineer",
+    "url": "https://deepshot.ai/careers",
+    "score": 95,
+    "chars": 4160,
+    "clearance": 107.2005615234375
+  },
+  {
+    "id": "JOB-008",
+    "company": "DocuSketch",
+    "title": "Remote AI ML Engineer",
+    "url": "https://remoteok.com/remote-jobs/remote-ai-ml-engineer-docusketch-1137619",
+    "score": 96,
+    "chars": 4036,
+    "clearance": 107.2005615234375
+  },
+  {
+    "id": "JOB-009",
+    "company": "Toptal",
+    "title": "AI / ML Engineer",
+    "url": "https://www.toptal.com/careers",
+    "score": 99,
+    "chars": 4090,
+    "clearance": 130.701171875
+  },
+  {
+    "id": "JOB-010",
+    "company": "Phaidra",
+    "title": "Remote Senior Software Engineer",
+    "url": "https://phaidra.ai/careers",
+    "score": 97,
+    "chars": 4519,
+    "clearance": 47.0262451171875
+  }
+]
