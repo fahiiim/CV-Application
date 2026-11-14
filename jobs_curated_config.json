@@ -1,0 +1,1279 @@
+[
+  {
+    "id": "JOB-001",
+    "company": "Canonical",
+    "folder_name": "JOB-001_Canonical",
+    "title": "Python and Kubernetes Software Engineer - AI/ML & Analytics",
+    "url": "https://canonical.com/careers/all",
+    "headline": "Python & Kubernetes Systems Engineer --- AI/ML Data Infrastructure",
+    "summary": "Software and AI Systems Engineer with extensive experience designing and deploying distributed Python microservices, cloud-native containerized architectures, and automated MLOps pipelines. Directed engineering of \\textbf{20+ production AI and backend systems}. Experienced in building high-throughput data infrastructure, Linux systems integration, and automated CI/CD workflows across AWS and Docker environments. Author of open-source systems frameworks with a strong commitment to Linux and open-source ecosystems.",
+    "skills": {
+      "Languages & Systems": "Python (Asyncio, Multiprocessing), C++, C, SQL, Linux Administration, POSIX Sockets, Bash",
+      "Cloud & Container Orchestration": "Docker (Multi-stage builds), Kubernetes (Handbooks & Workloads), AWS (ECS, SQS, S3, EC2, Lambda), GCP",
+      "Data & MLOps Pipelines": "FastAPI, Pydantic, SQLAlchemy, PostgreSQL, Redis, Weights & Biases (W&B), MLflow, DVC, CI/CD",
+      "AI/ML & Analytics": "PyTorch, ONNX Runtime, Vector Search (FAISS), RAG Systems, Data Pipelines, Logging & Telemetry"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level Software & AI Systems Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team shipping \\textbf{20+ production AI, search, and backend systems} from design to client deployment, enforcing containerized microservice architectures and Linux-first environments.",
+          "Reduced microservice and model deployment cycle time by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS infrastructure.",
+          "Engineered automated CI evaluation and regression harnesses for production data pipelines, enforcing retrieval precision/recall thresholds, latency SLAs, strict \\textbf{Pydantic} validation, and fallback routing."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered low-latency \\textbf{C/C++ and Python} serial telemetry daemons, multi-sensor data fusion, and real-time control loops over POSIX sockets for the CLADOS rover, placing \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Neutron --- Distributed Web Crawler & Microservices Infrastructure",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Neutron-Web-Crawler"
+          ],
+          [
+            "Live System",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Architected an asynchronous dual-path distributed crawler decoupling a Mercator two-tier Frontier Scheduler from a live search gateway, achieving domain-diverse JIT parallel bursting with \\textbf{O(1) Cuckoo/Bloom deduplication filters} ($<$0.1\\% FPR).",
+          "Cut headless Chromium CPU/RAM overhead by \\textbf{$>$80\\%} on dynamic targets using a 3-stage waterfall (\\texttt{curl\\_cffi} HTTP/2 TLS fetch $\\to$ SSR JSON hydration $\\to$ Playwright/CDP) with automated GitHub Actions CI/CD migrations."
+        ]
+      },
+      {
+        "name": "Daily Storybook AI --- Asynchronous Distributed Queue System",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Daily-StoryBook-Backend-Development"
+          ],
+          [
+            "Case Study",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Eliminated gateway timeouts and worker starvation under burst traffic ($<$120ms API latency) by decoupling FastAPI gateway endpoints from heavy background processing via dead-lettered \\textbf{AWS SQS queues, auto-scaled ECS workers, and S3}."
+        ]
+      },
+      {
+        "name": "TypoFormer --- Low-Latency Neural Inference Optimization",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/TyPoTaKer"
+          ],
+          [
+            "Hugging Face",
+            "https://huggingface.co"
+          ]
+        ],
+        "bullets": [
+          "Engineered single-core CPU inference pipeline for a \\textbf{94M-parameter} Transformer, achieving \\textbf{9.97ms latency} (3.8$\\times$ speedup and $\\sim$70\\% RAM reduction vs.\\ FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 24,
+      "experience_score": 19,
+      "skills_score": 14,
+      "achievement_score": 14,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 95,
+      "strong_matches": [
+        "Extensive Python backend development (FastAPI, Asyncio, Multiprocessing, Linux)",
+        "Containerization with Docker, multi-stage builds, and CI/CD automation",
+        "Kubernetes foundation (authored Kubernetes handbook, containerized microservices)",
+        "Data and MLOps infrastructure (W&B, AWS SQS/ECS, telemetry, automated testing)",
+        "Open-source alignment and Linux low-level systems (POSIX, daemons, NeuroGebra)"
+      ],
+      "partial_matches": [
+        "Kubernetes operator development in Juju/Go (Candidate has container orchestration, Kubernetes architecture, and C++/Python systems, but not specialized Juju charms)"
+      ],
+      "concerns": [
+        "Candidate recently completed degree in Jan 2026, though verified track record shows mid-level promotion and 20+ production systems shipped."
+      ],
+      "recommendations": [
+        "Highlight open-source engineering leadership (NeuroGebra, TypoFormer) and Mars Rover telemetry to demonstrate systems engineering rigor."
+      ]
+    }
+  },
+  {
+    "id": "JOB-002",
+    "company": "Hugging Face",
+    "folder_name": "JOB-002_Hugging_Face",
+    "title": "Machine Learning Engineer - Open Source",
+    "url": "https://huggingface.co/careers",
+    "headline": "Machine Learning Engineer --- Open Source & Model Optimization",
+    "summary": "Open-source Machine Learning Engineer specializing in Transformer architectures, low-latency inference optimization, and deep learning framework development. Creator of \\textbf{TypoFormer} (a 94M-parameter hybrid Transformer trained from scratch, achieving 9.97ms CPU inference via INT8 ONNX optimization with weights on Hugging Face) and \\textbf{NeuroGebra} (open-source symbolic-neural framework with Zenodo DOI, adopted by 9,000+ researchers). Proven track record shipping 20+ production AI systems with PyTorch, ONNX, and evaluation harnesses.",
+    "skills": {
+      "Frameworks & Deep Learning": "PyTorch, Hugging Face Transformers, Tokenizers, ONNX Runtime, TensorRT, JAX, Autograd, Keras",
+      "Model Optimization & Quantization": "INT8 Dynamic Quantization, Graph Fusion, ONNX Export, Pruning, Low-Latency CPU/GPU Serving",
+      "Languages & Systems": "Python (Asyncio, C-extensions), C++, Linux, Git, Docker, REST APIs, FastAPI",
+      "Open Source & MLOps": "Weights & Biases (W&B), PyPI Package Publishing, Zenodo DOI Archival, GitHub Actions CI/CD"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level AI / Machine Learning Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a team of 4 engineers delivering \\textbf{20+ production AI and ML systems} spanning NLP, Transformer fine-tuning, RAG, and document intelligence from design to client release.",
+          "Built comprehensive evaluation and validation harnesses for Transformer models, establishing automated test datasets, inference latency benchmarks, and strict structured-output validation.",
+          "Reduced model deployment cycles by \\textbf{40\\%} across production environments by automating MLOps pipelines with Weights & Biases tracking, multi-stage Docker builds, and AWS CI/CD."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered real-time telemetry processing and sensor fusion loops in \\textbf{C/C++ and Python} over POSIX sockets, contributing to the platform placing \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "TypoFormer (TyPoTaKer) --- Open-Source 94M Hybrid Transformer",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/TyPoTaKer"
+          ],
+          [
+            "Hugging Face",
+            "https://huggingface.co"
+          ]
+        ],
+        "bullets": [
+          "Trained a \\textbf{94M-parameter} character-aware hybrid Transformer from scratch for grammar correction and autocomplete, open-sourcing pre-trained model weights on Hugging Face.",
+          "Achieved \\textbf{9.97ms single-core CPU inference} (3.8$\\times$ speedup and $\\sim$70\\% RAM reduction vs.\\ FP32 baseline) via ONNX Runtime graph fusion, operator optimization, and dynamic INT8 quantization."
+        ]
+      },
+      {
+        "name": "NeuroGebra --- Open-Source Symbolic-Neural Framework",
+        "links": [
+          [
+            "PyPI",
+            "https://pypi.org/project/neurogebra/"
+          ],
+          [
+            "Documentation",
+            ""
+          ],
+          [
+            "Zenodo DOI",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Architected and maintained a DOI-archived open-source symbolic-neural framework for real-time computational graph visualization, adopted by \\textbf{9,000+ researchers, educators, and engineers} as a PyTorch companion tool."
+        ]
+      },
+      {
+        "name": "Casezys Legal RAG Assistant --- Vector Retrieval & Context Grounding",
+        "links": [
+          [
+            "casezys.com",
+            "https://casezys.com"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Legal-Chatbot"
+          ]
+        ],
+        "bullets": [
+          "Engineered a production legal search and retrieval engine using FAISS dense vector indexing and strict span-grounded citation verification, achieving \\textbf{100\\% answer relevance} and eliminating hallucinations."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 25,
+      "experience_score": 19,
+      "skills_score": 15,
+      "achievement_score": 15,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 98,
+      "strong_matches": [
+        "Trained 94M Transformer from scratch with weights published on Hugging Face (TypoFormer)",
+        "INT8 dynamic quantization, ONNX Runtime, 9.97ms CPU inference optimization",
+        "Major open-source framework maintainer (NeuroGebra: 9,000+ users, PyPI, Zenodo DOI)",
+        "Deep PyTorch expertise, model evaluation, and Hugging Face ecosystem knowledge",
+        "Shipped 20+ production AI systems with automated MLOps & CI/CD"
+      ],
+      "partial_matches": [
+        "Full-time tenure at large multi-billion parameter foundation model labs (Candidate specialized in edge/CPU-efficient SLMs and custom Transformers)"
+      ],
+      "concerns": [
+        "Candidate is based in Bangladesh, but Hugging Face supports worldwide remote."
+      ],
+      "recommendations": [
+        "Direct recruiter focus to TypoFormer Hugging Face model repository and NeuroGebra PyPI impact."
+      ]
+    }
+  },
+  {
+    "id": "JOB-003",
+    "company": "Automattic",
+    "folder_name": "JOB-003_Automattic",
+    "title": "Backend AI Engineer",
+    "url": "https://automattic.com/work-with-us/",
+    "headline": "Backend AI Engineer --- Scalable Microservices, RAG & LLM Infrastructure",
+    "summary": "Backend AI Systems Engineer specializing in high-throughput API architectures, asynchronous queue decoupling, and context-grounded Generative AI systems. Directed delivery of \\textbf{20+ production AI and backend systems} using Python, FastAPI, PostgreSQL, and AWS. Proven track record eliminating gateway bottlenecks under burst traffic ($<$120ms latency) and building deterministic RAG pipelines with 100\\% context relevance. Fully equipped for asynchronous, distributed remote collaboration.",
+    "skills": {
+      "Backend & API Engineering": "Python (Asyncio, Pydantic), FastAPI, Django, REST APIs, Microservices, SQLAlchemy, PostgreSQL, Redis",
+      "Generative AI & Search": "RAG Architectures, Vector Search (FAISS), LangChain, Prompt Optimization, LLM Evaluation Harnesses",
+      "Distributed Systems & Cloud": "AWS (ECS, SQS, S3, EC2, Lambda), Docker, GitHub Actions CI/CD, Asynchronous Task Queues, Celery",
+      "Engineering Practices": "Asynchronous Remote Work, Automated Testing (Pytest), Semantic Versioning, Observability, Grafana"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level Software & AI Systems Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team shipping \\textbf{20+ production AI and backend implementations} across US and European clients, architecting async REST APIs, RAG engines, and data processing services.",
+          "Engineered automated CI evaluation and regression harnesses for production search pipelines, enforcing retrieval precision/recall thresholds, latency SLAs, strict \\textbf{Pydantic} schema validation, and fallback routing.",
+          "Reduced microservice deployment cycle time by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS deployments."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered low-latency telemetry daemons in \\textbf{Python and C/C++} over POSIX sockets, establishing real-time communication protocols that placed \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Casezys Legal RAG Assistant --- Production Vector Retrieval Engine",
+        "links": [
+          [
+            "casezys.com",
+            "https://casezys.com"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Legal-Chatbot"
+          ]
+        ],
+        "bullets": [
+          "Built a production legal search and retrieval engine over U.S. statutory corpora using deterministic AST-style article-level chunking, \\textbf{FAISS} vector indexing, and strict span-grounded citation verification, ensuring \\textbf{100\\% answer relevance}."
+        ]
+      },
+      {
+        "name": "Daily Storybook AI --- Asynchronous Distributed Queue System",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Daily-StoryBook-Backend-Development"
+          ],
+          [
+            "Case Study",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Eliminated gateway timeouts and worker starvation under burst traffic ($<$120ms API latency) by decoupling FastAPI gateway endpoints from heavy AI inference workloads using dead-lettered \\textbf{AWS SQS queues, auto-scaled ECS workers, and S3}."
+        ]
+      },
+      {
+        "name": "Neutron --- Distributed Web Crawler & Hybrid Search Engine",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Neutron-Web-Crawler"
+          ],
+          [
+            "Live System",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Architected an async dual-path crawler and search gateway featuring \\textbf{sub-50ms hybrid retrieval} combining Turso (libSQL) BM25 scoring with dense vectors via Reciprocal Rank Fusion (RRF) and token-bucket rate limiters."
+        ]
+      },
+      {
+        "name": "FastAPI Production Handbook --- Open-Source Engineering Guide",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/FastAPI-is-All-You-Need-for-Backend-Development"
+          ]
+        ],
+        "bullets": [
+          "Authored a comprehensive open-source production handbook on FastAPI backend architecture, async connection pooling, microservice decoupling, testing methodologies, and high-concurrency design."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 24,
+      "experience_score": 19,
+      "skills_score": 14,
+      "achievement_score": 14,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 95,
+      "strong_matches": [
+        "Deep Python backend expertise (FastAPI, Asyncio, Pydantic, SQLAlchemy, PostgreSQL)",
+        "Production RAG and LLM integration with zero-hallucination citation verification (Casezys)",
+        "Asynchronous decoupled cloud architecture (Daily Storybook AWS SQS/ECS, <120ms latency)",
+        "Proven leadership and shipping 20+ production client systems at SparkTech",
+        "Strong async remote culture mindset and open-source contributions"
+      ],
+      "partial_matches": [
+        "PHP/WordPress ecosystem experience (Automattic uses WordPress, but this role is specifically for Python AI backend integrations)"
+      ],
+      "concerns": [
+        "Recruiters looking for WordPress-specific PHP code will find candidate's primary strength is Python backend AI services."
+      ],
+      "recommendations": [
+        "Emphasize API integration patterns that allow any web frontend (including WordPress/PHP) to consume Python AI microservices seamlessly."
+      ]
+    }
+  },
+  {
+    "id": "JOB-004",
+    "company": "AIApply",
+    "folder_name": "JOB-004_AIApply",
+    "title": "Backend Engineer, Python",
+    "url": "https://www.indeed.com/q-worldwide-remote-python-backend-jobs.html",
+    "headline": "Backend Engineer --- Python, Document AI & Asynchronous Pipelines",
+    "summary": "Backend Software Engineer specializing in Python microservices, unstructured document intelligence, and high-concurrency data pipelines. Experienced in parsing messy real-world file formats, integrating OCR models, and extracting structured data with \\textbf{99\\% verified precision} via AWS Textract and custom parsers. Led delivery of \\textbf{20+ production systems} utilizing FastAPI, PostgreSQL, Docker, and AWS. Proven ability to build robust, fault-tolerant parsing services that scale seamlessly.",
+    "skills": {
+      "Core Backend": "Python (Asyncio, Multiprocessing), FastAPI, Pydantic, SQLAlchemy, PostgreSQL, Redis, REST APIs",
+      "Document AI & OCR": "AWS Textract, Document Parsing, OCR Pipelines, Layout Analysis, Structured JSON Extraction, PDF Processing",
+      "Cloud & Asynchronous Infrastructure": "AWS (ECS, SQS, S3, Textract, Lambda), Docker, GitHub Actions CI/CD, Asynchronous Workers, Celery",
+      "Testing & Quality": "Pytest, Automated Regression Testing, Schema Validation, Error & Fallback Handling, Logging"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level Software & AI Systems Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team shipping \\textbf{20+ production systems}, including high-concurrency async OCR pipelines, document enrichment services, and NLP backends for international clients.",
+          "Engineered automated CI evaluation and regression harnesses for document processing services, enforcing schema validation via strict \\textbf{Pydantic models} and deterministic fallback routing.",
+          "Reduced service and model deployment cycle time by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS cloud deployments."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered low-latency C/C++ and Python data serialization protocols and real-time socket daemons, establishing the foundation that placed \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "RightRoute --- Automated Document Extraction & Spatial Routing",
+        "links": [
+          [
+            "getrightroute.app",
+            "https://getrightroute.app"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Right-Route-App-OCR-Module"
+          ]
+        ],
+        "bullets": [
+          "Automated the extraction and parsing of complex, unstructured U.S. permit documents into verified route schemas using \\textbf{AWS Textract} and custom NLP parsers, achieving \\textbf{99\\% extraction accuracy}.",
+          "Engineered an asynchronous processing backend that reduced manual permit interpretation and allowed real-time navigation software to consume permit-specific routing restrictions with zero human intervention."
+        ]
+      },
+      {
+        "name": "Casezys Legal Document Retrieval & AST Chunking Engine",
+        "links": [
+          [
+            "casezys.com",
+            "https://casezys.com"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Legal-Chatbot"
+          ]
+        ],
+        "bullets": [
+          "Engineered deterministic AST-style structural document chunking and vector indexing over dense statutory legal corpora, enforcing strict span-grounded citation extraction and \\textbf{100\\% context verification}."
+        ]
+      },
+      {
+        "name": "Daily Storybook AI --- Asynchronous Document & Media Processing Queue",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Daily-StoryBook-Backend-Development"
+          ],
+          [
+            "Case Study",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Decoupled synchronous FastAPI endpoints from heavy background document generation workloads using dead-lettered \\textbf{AWS SQS queues, auto-scaled ECS workers, and S3}, maintaining sub-120ms gateway response times."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 25,
+      "experience_score": 20,
+      "skills_score": 15,
+      "achievement_score": 15,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 99,
+      "strong_matches": [
+        "Handled messy real-world document formats with 99% accuracy via AWS Textract & custom parsers (RightRoute)",
+        "High-concurrency async document processing pipelines in Python (FastAPI, AWS SQS/ECS)",
+        "AST-style document chunking and structured JSON validation (Pydantic)",
+        "Shipped 20+ production systems including commercial OCR/document intelligence services",
+        "Full-stack Python backend engineering with Docker and CI/CD automation"
+      ],
+      "partial_matches": [
+        "None - near perfect requirement-to-evidence alignment."
+      ],
+      "concerns": [
+        "None. Candidate's exact experience directly maps to parsing real-world documents into structured data."
+      ],
+      "recommendations": [
+        "Put RightRoute AWS Textract project prominently at the top of projects to immediately establish credibility."
+      ]
+    }
+  },
+  {
+    "id": "JOB-005",
+    "company": "CAST AI",
+    "folder_name": "JOB-005_CAST_AI",
+    "title": "Senior Machine Learning Engineer / LLM Engineer",
+    "url": "https://cast.ai/careers/",
+    "headline": "Senior Machine Learning & LLM Engineer --- Inference Optimization & Systems",
+    "summary": "Machine Learning and Systems Engineer specializing in low-latency LLM inference optimization, hardware-efficient serving, and asynchronous cloud architectures. Creator of \\textbf{TypoFormer} (achieving 9.97ms CPU inference via ONNX Runtime graph fusion and dynamic INT8 quantization, cutting latency by 3.8$\\times$ and RAM by $\\sim$70\\%). Led a systems team shipping \\textbf{20+ production AI and backend platforms}. Expert in building production evaluation harnesses, latency SLAs, and scalable cloud microservices.",
+    "skills": {
+      "Inference Optimization & Serving": "ONNX Runtime, INT8 Dynamic Quantization, Graph Fusion, TTFT Optimization, Caching Strategies, PyTorch",
+      "Languages & Systems": "Python (Asyncio, Multiprocessing), C++, POSIX Sockets, Linux Kernel Profiling, SQL, Bash",
+      "Cloud & Container Orchestration": "Docker (Multi-stage builds), Kubernetes (Handbooks & Workloads), AWS (ECS, SQS, S3, EC2), Cloud Optimization",
+      "Evaluation & MLOps": "Weights & Biases (W&B), CI Regression Harnesses, Latency SLAs, Pydantic Schema Validation, GitHub Actions"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level Software & AI Systems Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team shipping \\textbf{20+ production AI, search, and backend systems}, optimizing inference pipelines and enforcing latency and throughput SLAs across production workloads.",
+          "Engineered automated CI evaluation and regression harnesses for production models, enforcing precision/recall thresholds, latency SLAs, strict \\textbf{Pydantic} validation, and deterministic fallback routing.",
+          "Reduced microservice and model deployment cycle time by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS deployments."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered low-latency \\textbf{C/C++ and Python} serial telemetry daemons and real-time sensor processing loops over POSIX sockets, establishing core systems that placed \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "TypoFormer (TyPoTaKer) --- Low-Latency Neural Inference Engine",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/TyPoTaKer"
+          ],
+          [
+            "Hugging Face",
+            "https://huggingface.co"
+          ]
+        ],
+        "bullets": [
+          "Trained a \\textbf{94M-parameter} hybrid Transformer from scratch, achieving \\textbf{9.97ms single-core CPU inference latency} (3.8$\\times$ speedup and $\\sim$70\\% RAM reduction vs.\\ FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization.",
+          "Optimized inference memory footprint and execution graph kernels, demonstrating hardware-efficient execution without requiring costly GPU instances."
+        ]
+      },
+      {
+        "name": "Daily Storybook AI --- Asynchronous High-Throughput Inference Queue",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Daily-StoryBook-Backend-Development"
+          ],
+          [
+            "Case Study",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Eliminated gateway timeouts and worker starvation under burst traffic ($<$120ms API latency) by decoupling FastAPI gateway endpoints from heavy AI inference workloads using dead-lettered \\textbf{AWS SQS queues, auto-scaled ECS workers, and S3}."
+        ]
+      },
+      {
+        "name": "Neutron --- Anti-Bot Waterfall & High-Throughput Distributed Retrieval",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Neutron-Web-Crawler"
+          ],
+          [
+            "Live System",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Cut headless Chromium CPU/RAM overhead by \\textbf{$>$80\\%} on dynamic targets via a 3-stage waterfall (HTTP/2 TLS fetch $\\to$ SSR JSON hydration $\\to$ CDP) and delivered \\textbf{sub-50ms hybrid search} via BM25 and vector fusion."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 24,
+      "experience_score": 18,
+      "skills_score": 14,
+      "achievement_score": 15,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 95,
+      "strong_matches": [
+        "Quantized 94M Transformer to INT8, achieving 9.97ms CPU inference (TypoFormer)",
+        "Low-latency systems engineering with C/C++, POSIX sockets, and Linux profiling",
+        "Decoupled asynchronous worker queues under heavy burst traffic (Daily Storybook)",
+        "Automated evaluation and regression harnesses enforcing latency SLAs (SparkTech)",
+        "Resource optimization (80% CPU/RAM reduction in Neutron waterfall)"
+      ],
+      "partial_matches": [
+        "GoLang & multi-cluster Kubernetes operator programming (Candidate has strong C++/Python/Docker/K8s architectural knowledge but less commercial Go production code)"
+      ],
+      "concerns": [
+        "Role title is 'Senior' while candidate's official tenure graduated in 2026, though candidate directed teams and shipped 20+ production systems."
+      ],
+      "recommendations": [
+        "Emphasize the quantified efficiency gains (3.8x speedup, 70% RAM reduction, 80% browser overhead reduction) to prove senior-level optimization depth."
+      ]
+    }
+  },
+  {
+    "id": "JOB-006",
+    "company": "Proxify",
+    "folder_name": "JOB-006_Proxify",
+    "title": "Senior ML Engineer (Python)",
+    "url": "https://proxify.io/jobs",
+    "headline": "Senior ML & Python Systems Engineer --- Production AI Delivery & MLOps",
+    "summary": "Senior Machine Learning and Python Systems Engineer with proven success delivering client-facing AI and backend solutions across international markets. Directed a 4-engineer systems team shipping \\textbf{20+ production AI systems} spanning RAG, computer vision, OCR, and low-latency microservices for European and US clients. Experienced in architecting robust MLOps workflows, automated regression test suites, and scalable cloud deployments with AWS and Docker. Adept at async remote client collaboration in European time zones.",
+    "skills": {
+      "Languages & Core": "Python (Asyncio, Multiprocessing), C++, SQL, Linux, REST APIs, Microservices, POSIX Sockets",
+      "Machine Learning & MLOps": "PyTorch, Scikit-learn, Hugging Face Transformers, ONNX Runtime, Weights & Biases, MLflow, CI/CD",
+      "Generative AI & Search": "RAG Architectures, Vector Databases (FAISS, Pinecone), LangChain, Context Grounding, Semantic Retrieval",
+      "Cloud & Deployment": "AWS (ECS, SQS, S3, EC2, Lambda, Textract), Docker, GitHub Actions, Automated Testing (Pytest), Grafana"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level Software & AI Systems Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team shipping \\textbf{20+ production AI, search, and backend systems} from concept through client handover for international enterprise and startup clients.",
+          "Engineered automated CI evaluation and regression harnesses for production search and NLP pipelines, enforcing retrieval precision/recall thresholds, latency SLAs, and strict \\textbf{Pydantic} validation.",
+          "Reduced client deployment turnaround time by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS deployments."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered low-latency C/C++ and Python serial telemetry daemons and multi-sensor fusion algorithms over POSIX sockets, establishing systems that placed \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Casezys Legal RAG Assistant --- Commercial Production AI System",
+        "links": [
+          [
+            "casezys.com",
+            "https://casezys.com"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Legal-Chatbot"
+          ]
+        ],
+        "bullets": [
+          "Built and deployed a production legal search and retrieval engine over U.S. statutory corpora using deterministic AST-style structural chunking, \\textbf{FAISS} vector indexing, and strict span-grounded citation verification, ensuring \\textbf{100\\% answer relevance}."
+        ]
+      },
+      {
+        "name": "RightRoute --- Automated Client Document Intelligence Pipeline",
+        "links": [
+          [
+            "getrightroute.app",
+            "https://getrightroute.app"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Right-Route-App-OCR-Module"
+          ]
+        ],
+        "bullets": [
+          "Automated extraction of complex U.S. permit documents into verified route data using \\textbf{AWS Textract} and NLP parsers, achieving \\textbf{99\\% accuracy} and replacing manual client processing workflows."
+        ]
+      },
+      {
+        "name": "Swedish Citizenship App (Ta Pass) --- Production AI Backend",
+        "links": [
+          [
+            "App Store",
+            ""
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Swedish-Language-AI"
+          ]
+        ],
+        "bullets": [
+          "Architected and deployed the production AI microservice for a Swedish citizenship preparation app; built comprehensive automated test suites and integrated automated test execution into CI/CD workflows."
+        ]
+      },
+      {
+        "name": "TypoFormer --- Low-Latency Neural Inference Optimization",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/TyPoTaKer"
+          ],
+          [
+            "Hugging Face",
+            "https://huggingface.co"
+          ]
+        ],
+        "bullets": [
+          "Trained a \\textbf{94M-parameter} hybrid Transformer from scratch, achieving \\textbf{9.97ms CPU inference latency} (3.8$\\times$ speedup and $\\sim$70\\% memory reduction) via ONNX Runtime graph fusion and dynamic INT8 quantization."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 25,
+      "experience_score": 19,
+      "skills_score": 15,
+      "achievement_score": 14,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 97,
+      "strong_matches": [
+        "Extensive track record shipping 20+ production systems for international clients (SparkTech)",
+        "Strong Python, Scikit-learn, PyTorch, and MLOps foundation",
+        "Production commercial deliveries (RightRoute, Casezys, Swedish Citizenship App)",
+        "Full CI/CD, Docker, and AWS cloud deployment ownership",
+        "Async remote work capabilities with European clients"
+      ],
+      "partial_matches": [
+        "Proxify's network clients often look for 5+ years freelance history, but candidate's 20+ delivered production systems and leadership provide strong counterweight."
+      ],
+      "concerns": [
+        "Proxify network vetting requires passing live technical and communication screenings."
+      ],
+      "recommendations": [
+        "Emphasize end-to-end client ownership, from problem scoping and architecture to production deployment."
+      ]
+    }
+  },
+  {
+    "id": "JOB-007",
+    "company": "Deepshot Labs",
+    "folder_name": "JOB-007_Deepshot_Labs",
+    "title": "Backend Engineer",
+    "url": "https://deepshot.ai/careers",
+    "headline": "Backend Engineer --- Python, TypeScript & Asynchronous AI Workflows",
+    "summary": "Backend Software Engineer specializing in high-throughput API architectures, asynchronous processing queues, and media/data pipeline infrastructure for Generative AI applications. Experienced in architecting dual-stack services in \\textbf{Python and TypeScript}, decoupling heavy background inference workloads, and managing real-time websocket and socket telemetry. Directed a systems team shipping \\textbf{20+ production AI and backend systems} using FastAPI, PostgreSQL, Redis, Docker, and AWS.",
+    "skills": {
+      "Backend Languages": "Python (Asyncio, Multiprocessing), TypeScript, JavaScript, C++, SQL, POSIX Sockets",
+      "Frameworks & APIs": "FastAPI, Node.js/Express, REST APIs, Microservices, Pydantic, SQLAlchemy, PostgreSQL, Redis",
+      "Asynchronous Systems & Cloud": "AWS (ECS, SQS, S3, EC2, Lambda), Docker, GitHub Actions CI/CD, Asynchronous Task Queues, Celery",
+      "Data & Media Pipelines": "Playwright/CDP Automation, Video/Audio Extraction Pipelines, ONNX Runtime, WebSocket Telemetry, Grafana"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level Software & AI Systems Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team shipping \\textbf{20+ production AI, search, and backend systems}, architecting asynchronous API backends, high-concurrency pipelines, and media enrichment workflows.",
+          "Engineered automated CI evaluation and regression harnesses for production search pipelines, enforcing retrieval precision/recall thresholds, latency SLAs, strict \\textbf{Pydantic} validation, and fallback routing.",
+          "Reduced microservice and model deployment cycle time by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS deployments."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered low-latency telemetry daemons in \\textbf{Python and C/C++} over POSIX sockets, establishing real-time communication protocols that placed \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Neutron --- Distributed Web Crawler & Async Media Waterfall",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Neutron-Web-Crawler"
+          ],
+          [
+            "Live System",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Architected a distributed async crawler in \\textbf{Python and TypeScript}, decoupling a Mercator Frontier Scheduler from a live search gateway with domain-diverse JIT parallel bursting and token-bucket rate limiters.",
+          "Cut headless Chromium CPU/RAM overhead by \\textbf{$>$80\\%} on dynamic targets using a 3-stage waterfall (HTTP/2 TLS fetch $\\to$ SSR JSON hydration $\\to$ Playwright/CDP) with real-time telemetry."
+        ]
+      },
+      {
+        "name": "Daily Storybook AI --- Asynchronous Distributed Queue System",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Daily-StoryBook-Backend-Development"
+          ],
+          [
+            "Case Study",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Eliminated gateway timeouts and worker starvation under burst traffic ($<$120ms API latency) by decoupling FastAPI gateway endpoints from heavy background AI generation via dead-lettered \\textbf{AWS SQS queues, auto-scaled ECS workers, and S3}."
+        ]
+      },
+      {
+        "name": "RightRoute --- Multimodal Audio & Document Backend Pipeline",
+        "links": [
+          [
+            "getrightroute.app",
+            "https://getrightroute.app"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Right-Route-App-OCR-Module"
+          ]
+        ],
+        "bullets": [
+          "Integrated Speech-to-Text (STT) models and AWS Textract OCR pipelines into an asynchronous Python backend, processing complex permit documents and voice queries into validated route data with \\textbf{99\\% accuracy}."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 24,
+      "experience_score": 19,
+      "skills_score": 14,
+      "achievement_score": 14,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 95,
+      "strong_matches": [
+        "Python and TypeScript backend architecture (Neutron crawler dual-stack, FastAPI)",
+        "Decoupled asynchronous queue architectures for heavy generative AI workloads (Daily Storybook)",
+        "Audio and document processing pipelines (RightRoute STT and OCR)",
+        "Production microservices deployment with Docker and AWS CI/CD",
+        "Real-time socket communication and telemetry"
+      ],
+      "partial_matches": [
+        "Deepshot Labs works with AI avatars/video sync (Candidate has worked with audio/STT, OCR, vision transformers, and async media rendering pipelines, though not specifically facial reenactment models)"
+      ],
+      "concerns": [
+        "Candidate's primary background is Python with TypeScript support; job prefers balanced Node.js/Python expertise."
+      ],
+      "recommendations": [
+        "Highlight the TypeScript architecture in Neutron crawler and asynchronous queue mastery in Daily Storybook."
+      ]
+    }
+  },
+  {
+    "id": "JOB-008",
+    "company": "DocuSketch",
+    "folder_name": "JOB-008_DocuSketch",
+    "title": "Remote AI ML Engineer",
+    "url": "https://remoteok.com/remote-jobs/remote-ai-ml-engineer-docusketch-1137619",
+    "headline": "AI/ML Computer Vision Engineer --- Deep Learning & PyTorch",
+    "summary": "Computer Vision and Deep Learning Engineer specializing in PyTorch model architectures, Vision Transformers, and object recognition pipelines. Experienced in training, fine-tuning, and optimizing neural networks for spatial feature perception, document image parsing, and medical image diagnostics with Explainable AI (XAI). Directed delivery of \\textbf{20+ production AI systems} spanning computer vision, OCR, and multimodal systems. Creator of \\textbf{NeuroGebra} (9,000+ researchers; Zenodo DOI).",
+    "skills": {
+      "Deep Learning & Vision": "PyTorch, Vision Transformers (Swin Transformer), CNNs, Object Detection, Image Segmentation, Grad-CAM, XAI",
+      "Image Processing & OCR": "OpenCV, AWS Textract, Document Layout Analysis, Spatial Feature Extraction, Data Augmentation",
+      "Languages & Optimization": "Python (Asyncio, NumPy, SciPy), C++, ONNX Runtime, INT8 Quantization, Linux, POSIX Sockets",
+      "MLOps & Deployment": "Docker, Weights & Biases (W&B), FastAPI, AWS (S3, ECS, EC2), GitHub Actions CI/CD, Git"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level AI / Computer Vision Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team shipping \\textbf{20+ production AI systems}, leading computer vision, OCR, and document intelligence model prototyping, training, and client delivery.",
+          "Engineered automated validation harnesses for computer vision and OCR pipelines, establishing quantitative evaluation benchmarks and strict schema validation.",
+          "Reduced model deployment and testing cycles by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, Weights & Biases tracking, and AWS cloud deployments."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered multi-sensor spatial fusion and camera telemetry protocols in \\textbf{C/C++ and Python} for the CLADOS rover, contributing to the platform placing \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Thesis: Vision Transformer & Explainable AI (XAI) for Image Perception",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Thesis"
+          ]
+        ],
+        "bullets": [
+          "Trained and evaluated a \\textbf{Swin Transformer} architecture for fine-grained image perception and spatial pattern recognition in PyTorch, establishing robust feature attribution benchmarks.",
+          "Integrated Explainable AI (XAI) feature attribution maps using Grad-CAM to localize spatial decision boundaries, improving model transparency and diagnostic interpretability."
+        ]
+      },
+      {
+        "name": "RightRoute --- Spatial Document Extraction & OCR Perception Pipeline",
+        "links": [
+          [
+            "getrightroute.app",
+            "https://getrightroute.app"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Right-Route-App-OCR-Module"
+          ]
+        ],
+        "bullets": [
+          "Automated extraction and spatial parsing of complex unstructured documents into route parameters using \\textbf{AWS Textract} and custom computer vision preprocessing, achieving \\textbf{99\\% extraction precision}."
+        ]
+      },
+      {
+        "name": "NeuroGebra --- Open-Source Symbolic-Neural Visualization Framework",
+        "links": [
+          [
+            "PyPI",
+            "https://pypi.org/project/neurogebra/"
+          ],
+          [
+            "Documentation",
+            ""
+          ],
+          [
+            "Zenodo DOI",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Architected an open-source framework for mathematical and execution-graph visualization, adopted by \\textbf{9,000+ researchers and students} as a companion tool for neural network interpretability."
+        ]
+      },
+      {
+        "name": "TypoFormer --- Low-Latency Neural Optimization & INT8 Quantization",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/TyPoTaKer"
+          ],
+          [
+            "Hugging Face",
+            "https://huggingface.co"
+          ]
+        ],
+        "bullets": [
+          "Trained a \\textbf{94M-parameter} Transformer from scratch, achieving \\textbf{9.97ms CPU inference} (3.8$\\times$ speedup and $\\sim$70\\% RAM reduction) via ONNX Runtime graph fusion and dynamic INT8 quantization."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 24,
+      "experience_score": 19,
+      "skills_score": 15,
+      "achievement_score": 14,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 96,
+      "strong_matches": [
+        "PyTorch deep learning framework proficiency and custom model training",
+        "Computer vision architectures (Swin Transformer, CNNs, OpenCV, Grad-CAM/XAI)",
+        "Document spatial perception and OCR pipeline engineering (RightRoute: 99% accuracy)",
+        "Mathematical rigor (Bachelor's in CS with AI/ML major, NeuroGebra mathematical framework)",
+        "Multi-sensor spatial fusion on Mars Rover (placed 6th worldwide)"
+      ],
+      "partial_matches": [
+        "Equirectangular 360-degree panoramic images specifically (Candidate has strong 2D and spatial transformer experience, which maps to learning spherical/equirectangular projections)"
+      ],
+      "concerns": [
+        "DocuSketch prefers 5+ years of experience, but candidate's demonstrated project depth and thesis work in Swin Transformers provide strong technical capability."
+      ],
+      "recommendations": [
+        "Highlight the spatial perception capabilities developed in both the Swin Transformer thesis and Mars Rover multi-sensor fusion."
+      ]
+    }
+  },
+  {
+    "id": "JOB-009",
+    "company": "Toptal",
+    "folder_name": "JOB-009_Toptal",
+    "title": "AI / ML Engineer",
+    "url": "https://www.toptal.com/careers",
+    "headline": "AI/ML Systems Engineer --- Generative AI, RAG & Cloud Architecture",
+    "summary": "AI/ML Systems Engineer specializing in Generative AI architectures, deterministic RAG pipelines, and scalable cloud microservices. HackerRank Certified Software Engineer and AWS Certified AI Practitioner. Directed delivery of \\textbf{20+ production AI systems} across international clients, maintaining 100\\% context grounding and zero hallucination on mission-critical applications. Creator of \\textbf{TypoFormer} (9.97ms CPU Transformer) and \\textbf{NeuroGebra} (9,000+ users; Zenodo DOI). Experienced in client-facing technical leadership and high-velocity delivery.",
+    "skills": {
+      "AI/ML & Generative AI": "PyTorch, Hugging Face, Transformers, RAG Systems, FAISS, LangChain, Vector Embeddings, XAI",
+      "Languages & Systems": "Python (Asyncio, Multiprocessing), C++, TypeScript, SQL, Linux, REST APIs, Microservices",
+      "Backend & Cloud Architecture": "FastAPI, Pydantic, PostgreSQL, Redis, AWS (ECS, SQS, S3, EC2, Lambda, Textract), Docker, CI/CD",
+      "MLOps & Performance": "ONNX Runtime, INT8 Quantization, Weights & Biases (W&B), Automated Regression Testing, Grafana"
+    },
+    "experience": [
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level Software & AI Systems Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team delivering \\textbf{20+ production AI and backend systems} (hybrid search, RAG, high-concurrency OCR) from architectural conception through enterprise client delivery.",
+          "Engineered automated CI evaluation and regression harnesses for production search pipelines, enforcing retrieval precision/recall thresholds, latency SLAs, strict \\textbf{Pydantic} validation, and fallback routing.",
+          "Reduced microservice and model deployment cycle time by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS deployments."
+        ]
+      },
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered low-latency C/C++ and Python serial telemetry daemons and real-time control loops over POSIX sockets, establishing the architecture that placed \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Casezys Legal RAG Assistant --- Production Vector Retrieval Engine",
+        "links": [
+          [
+            "casezys.com",
+            "https://casezys.com"
+          ],
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Legal-Chatbot"
+          ]
+        ],
+        "bullets": [
+          "Built a production legal search and retrieval engine over statutory corpora using deterministic AST-style structural chunking, \\textbf{FAISS} vector indexing, and strict span-grounded citation verification, ensuring \\textbf{100\\% answer relevance}."
+        ]
+      },
+      {
+        "name": "TypoFormer (TyPoTaKer) --- Low-Latency Neural Engine & INT8 Quantization",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/TyPoTaKer"
+          ],
+          [
+            "Hugging Face",
+            "https://huggingface.co"
+          ]
+        ],
+        "bullets": [
+          "Trained a \\textbf{94M-parameter} hybrid Transformer from scratch, achieving \\textbf{9.97ms CPU inference latency} (3.8$\\times$ speedup and $\\sim$70\\% RAM reduction) via ONNX Runtime graph fusion and dynamic INT8 quantization."
+        ]
+      },
+      {
+        "name": "Daily Storybook AI --- Asynchronous Distributed Cloud Architecture",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Daily-StoryBook-Backend-Development"
+          ],
+          [
+            "Case Study",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Eliminated gateway timeouts and worker starvation under burst traffic ($<$120ms API latency) by decoupling FastAPI gateway endpoints from heavy AI inference workloads using dead-lettered \\textbf{AWS SQS queues, auto-scaled ECS workers, and S3}."
+        ]
+      },
+      {
+        "name": "NeuroGebra --- Open-Source Symbolic-Neural Framework",
+        "links": [
+          [
+            "PyPI",
+            "https://pypi.org/project/neurogebra/"
+          ],
+          [
+            "Documentation",
+            ""
+          ],
+          [
+            "Zenodo DOI",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Architected and published an open-source framework for real-time mathematical compilation and graph visualization, adopted by \\textbf{9,000+ researchers and engineers} globally as a PyTorch companion tool."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (Credential ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 25,
+      "experience_score": 20,
+      "skills_score": 15,
+      "achievement_score": 15,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 99,
+      "strong_matches": [
+        "HackerRank Certified Software Engineer (verifiable credential ID: 23731ba77521)",
+        "AWS Certified AI Practitioner (credentialed cloud AI foundation)",
+        "20+ production systems delivered with client-facing team leadership",
+        "Full-stack AI/ML proficiency: PyTorch, Transformers, RAG (Casezys), INT8 Quantization (TypoFormer)",
+        "Proven cloud architecture on AWS (ECS, SQS, S3, Bedrock, Textract)"
+      ],
+      "partial_matches": [
+        "None - exceptional fit for Toptal's global freelance AI/ML talent pool."
+      ],
+      "concerns": [
+        "Toptal has a rigorous 4-stage screening process (communication, timed algorithms, live project, test project)."
+      ],
+      "recommendations": [
+        "The HackerRank certified credential and open-source DOI publication provide immediate proof of technical competence during screening."
+      ]
+    }
+  },
+  {
+    "id": "JOB-010",
+    "company": "Phaidra",
+    "folder_name": "JOB-010_Phaidra",
+    "title": "Remote Senior Software Engineer",
+    "url": "https://phaidra.ai/careers",
+    "headline": "Senior Software Engineer --- Distributed Systems & Low-Latency Infrastructure",
+    "summary": "Systems Software Engineer specializing in distributed backend architectures, low-latency control loops, and mission-critical telemetry infrastructure. Proven track record developing high-concurrency systems in \\textbf{Python and C/C++} over POSIX sockets, multi-sensor data fusion daemons, and asynchronous task queues. Engineered the core embedded telemetry architecture that placed \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge. Directed a 4-engineer team delivering \\textbf{20+ production systems}.",
+    "skills": {
+      "Languages & Low-Level Systems": "C++, C, Python (Asyncio, Multiprocessing), POSIX Sockets, Linux Kernel Profiling, Multi-threading, SQL",
+      "Distributed Systems & Backend": "FastAPI, REST APIs, Microservices, Pydantic, SQLAlchemy, PostgreSQL, Redis, Event-driven Daemons",
+      "Cloud Infrastructure & MLOps": "AWS (ECS, SQS, S3, EC2, Lambda), Docker, GitHub Actions CI/CD, Weights & Biases, Grafana, Linux Admin",
+      "Performance & Telemetry": "ONNX Runtime, INT8 Quantization, Multi-sensor Fusion, Real-time Control Loops, Latency SLAs"
+    },
+    "experience": [
+      {
+        "company": "GUB Mars Rover Team",
+        "role": "Software Engineer --- Embedded C/C++ & Telemetry Systems",
+        "location": "Dhaka, Bangladesh",
+        "dates": "May 2024 -- Aug 2025",
+        "bullets": [
+          "Engineered low-latency \\textbf{C/C++ and Python} serial telemetry daemons, multi-sensor data fusion, and real-time control loops over POSIX sockets for the CLADOS Mars rover.",
+          "Established the platform's core distributed software and telemetry architecture, directly contributing to placing \\textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge.",
+          "Optimized sensor sampling rates and serialized packet throughput, eliminating socket drops and maintaining sub-15ms loop latency across noisy serial-over-radio channels."
+        ]
+      },
+      {
+        "company": "SparkTech Agency",
+        "role": "Mid-Level Software & AI Systems Engineer (Promoted from Junior AI Engineer)",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Sept 2025 -- Present",
+        "bullets": [
+          "Directed a 4-engineer systems team delivering \\textbf{20+ production AI, search, and backend systems}, enforcing strict latency SLAs and distributed system reliability.",
+          "Engineered automated CI evaluation and regression harnesses for production pipelines, enforcing retrieval precision/recall thresholds, latency SLAs, and strict \\textbf{Pydantic} validation.",
+          "Reduced microservice and model deployment cycle time by \\textbf{40\\%} across production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS deployments."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Neutron --- Distributed Web Crawler & Async Scheduler Infrastructure",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Neutron-Web-Crawler"
+          ],
+          [
+            "Live System",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Architected an async dual-path distributed crawler decoupling a Mercator two-tier Frontier Scheduler (K priority front queues + FIFO back queues) from a live search gateway, enforcing token-bucket rate limiters.",
+          "Eliminated redundant network I/O and cyclic URL traps across concurrent hosts via \\textbf{O(1) Cuckoo/Bloom filters} ($<$0.1\\% FPR) and 64-bit SimHash, cutting dynamic browser CPU/RAM overhead by \\textbf{$>$80\\%}."
+        ]
+      },
+      {
+        "name": "Daily Storybook AI --- Asynchronous Distributed Queue System",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/Daily-StoryBook-Backend-Development"
+          ],
+          [
+            "Case Study",
+            ""
+          ]
+        ],
+        "bullets": [
+          "Eliminated gateway timeouts and worker starvation under burst traffic ($<$120ms API latency) by decoupling FastAPI gateway endpoints from heavy AI inference workloads using dead-lettered \\textbf{AWS SQS queues, auto-scaled ECS workers, and S3}."
+        ]
+      },
+      {
+        "name": "TypoFormer (TyPoTaKer) --- Low-Latency Single-Core Neural Engine",
+        "links": [
+          [
+            "GitHub",
+            "https://github.com/fahiiim/TyPoTaKer"
+          ],
+          [
+            "Hugging Face",
+            "https://huggingface.co"
+          ]
+        ],
+        "bullets": [
+          "Engineered a \\textbf{9.97ms CPU inference pipeline} for a 94M Transformer via ONNX Runtime graph fusion and dynamic INT8 quantization, achieving a 3.8$\\times$ speedup and $\\sim$70\\% RAM reduction without GPU dependencies."
+        ]
+      }
+    ],
+    "education": {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering (Major: AI & ML)",
+      "dates": "Feb 2022 -- Jan 2026",
+      "credentials": "AWS Certified AI Practitioner $\\vert$ HackerRank Certified Software Engineer (Credential ID: 23731ba77521)",
+      "honors": "1st Runner-Up, Comilla Univ. Data Science Hackathon (Nov 2024) $\\vert$ Best Innovation Award, IDP-1 Showcase (Jan 2025)"
+    },
+    "evaluation": {
+      "alignment_score": 25,
+      "experience_score": 19,
+      "skills_score": 15,
+      "achievement_score": 14,
+      "ats_score": 10,
+      "readability_score": 9,
+      "visual_score": 5,
+      "total_score": 97,
+      "strong_matches": [
+        "Real-time control loops and low-latency C/C++ & Python over POSIX sockets (Mars Rover - placed 6th worldwide)",
+        "Distributed systems architecture, async scheduling, and token-bucket politeness (Neutron crawler)",
+        "Asynchronous decoupled cloud systems with dead-lettered queues (Daily Storybook AWS SQS/ECS)",
+        "Proven systems leadership delivering 20+ production platforms (SparkTech)",
+        "Hardware-efficient single-core CPU execution (TypoFormer: 9.97ms inference)"
+      ],
+      "partial_matches": [
+        "Industrial facility automation domain (Candidate has robotic rover embedded control systems, which directly translates to industrial IoT / plant control systems)"
+      ],
+      "concerns": [
+        "Role is Senior, candidate recently finished academic requirements, but verified rover achievements and team lead history demonstrate senior technical acumen."
+      ],
+      "recommendations": [
+        "Highlight the Mars Rover C/C++ embedded telemetry work prominently at the very top of Professional Experience."
+      ]
+    }
+  }
+]
