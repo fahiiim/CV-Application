@@ -1,0 +1,759 @@
+[
+  {
+    "name": "Thesis",
+    "description": "SwinTransformer with XAI",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Thesis",
+    "topics": []
+  },
+  {
+    "name": "Neutron-Web-Crawler",
+    "description": "In this Repo I'll create a Neutron Web Crawler with a microservice based architecture",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Neutron-Web-Crawler",
+    "topics": []
+  },
+  {
+    "name": "TyPoTaKer",
+    "description": "Open Source Typing Checker",
+    "stars": 4,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/TyPoTaKer",
+    "topics": []
+  },
+  {
+    "name": "Swedish-Language-AI",
+    "description": "A production-ready AI microservice using FastAPI that generates Swedish Citizenship Test questions",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Swedish-Language-AI",
+    "topics": []
+  },
+  {
+    "name": "Soccer-AI-Chatbot",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Soccer-AI-Chatbot",
+    "topics": []
+  },
+  {
+    "name": "Scrapping-and-Crawling-Bot",
+    "description": "Scrapping and Crawling Bot for Ahstor.com ",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Scrapping-and-Crawling-Bot",
+    "topics": []
+  },
+  {
+    "name": "right-route-backend",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/right-route-backend",
+    "topics": []
+  },
+  {
+    "name": "Professional_Portfolio",
+    "description": "This portfolio is made by RATAN CHOUDHURY",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "html_url": "https://github.com/fahiiim/Professional_Portfolio",
+    "topics": []
+  },
+  {
+    "name": "Price-to-Profit--Alga-Chul",
+    "description": "This project is by an UAE client Amna",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Price-to-Profit--Alga-Chul",
+    "topics": []
+  },
+  {
+    "name": "NeuroGebra",
+    "description": "Neural-powered mathematics for AI Enthusiasts, Educators and Engineers",
+    "stars": 6,
+    "forks": 1,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/NeuroGebra",
+    "topics": [
+      "autograd",
+      "jax",
+      "machine-learning",
+      "neurogebra",
+      "numpy",
+      "pandas",
+      "python",
+      "pytorch",
+      "tensorflow"
+    ]
+  },
+  {
+    "name": "MYNE-AI",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/MYNE-AI",
+    "topics": []
+  },
+  {
+    "name": "Lead-Scoring-Agent",
+    "description": "rauta",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Lead-Scoring-Agent",
+    "topics": []
+  },
+  {
+    "name": "Kubernetes-handbook",
+    "description": "This handbook is written for someone who has never touched Kubernetes. You do not need to know what a container is, what ``orchestration'' means, or why everyone keeps talking about YAML. If you can open a terminal, run a command, and read a little code, you have everything you need.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TeX",
+    "html_url": "https://github.com/fahiiim/Kubernetes-handbook",
+    "topics": []
+  },
+  {
+    "name": "InkFlow-AI--Backend-Code",
+    "description": "this is primarily developed bhai Samim Osman bhai",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/InkFlow-AI--Backend-Code",
+    "topics": []
+  },
+  {
+    "name": "iFormat-AI-Modules",
+    "description": "iFormat is a project from the client Jessica. It's a job portal and hiring management website",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/iFormat-AI-Modules",
+    "topics": []
+  },
+  {
+    "name": "Hackathon-Hackerrank",
+    "description": "October",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Hackathon-Hackerrank",
+    "topics": []
+  },
+  {
+    "name": "Finance-AI",
+    "description": "Nibir bhai",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Finance-AI",
+    "topics": []
+  },
+  {
+    "name": "FastAPI-is-All-You-Need-for-Backend-Development",
+    "description": "A production-focused FastAPI backend engineering handbook covering architecture, databases, security, async, testing, deployment, scalability, AI backends, system design, and interviews.",
+    "stars": 12,
+    "forks": 1,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/FastAPI-is-All-You-Need-for-Backend-Development",
+    "topics": [
+      "architecture",
+      "backend",
+      "databses",
+      "fastapi",
+      "python"
+    ]
+  },
+  {
+    "name": "Daily-StoryBook-Backend-Development",
+    "description": "Daily StoryBook is a project from Zeuztucker, I'm developing the backend components of this project in this repository",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Daily-StoryBook-Backend-Development",
+    "topics": []
+  },
+  {
+    "name": "Cognitive-Working-Memory-in-Latent-Space",
+    "description": "When to Think, When to Act: Adaptive Computation for Efficient Sequence Reasoning",
+    "stars": 0,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Cognitive-Working-Memory-in-Latent-Space",
+    "topics": []
+  },
+  {
+    "name": "fahiiim",
+    "description": "Config files for my GitHub profile.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/fahiiim",
+    "topics": [
+      "config",
+      "github-config"
+    ]
+  },
+  {
+    "name": "Alga_Chul",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Alga_Chul",
+    "topics": []
+  },
+  {
+    "name": "Case-Study-of-Daily-Storybook-App",
+    "description": "I was responsible for its backend, AI and DevOps Implementation",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Case-Study-of-Daily-Storybook-App",
+    "topics": []
+  },
+  {
+    "name": "SQL-CheatSheet",
+    "description": "In this reposity I'll upload the all syntexts and cheatsheet of the SQL",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/SQL-CheatSheet",
+    "topics": []
+  },
+  {
+    "name": "Legal-Chatbot",
+    "description": "this is the project from Lukemamou and the projhect name is Caszes",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Legal-Chatbot",
+    "topics": []
+  },
+  {
+    "name": "ICT_Fest_Hackathon_Preliminary",
+    "description": "Competition",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/ICT_Fest_Hackathon_Preliminary",
+    "topics": []
+  },
+  {
+    "name": "Right-Route-App-OCR-Module",
+    "description": "Here the client\u2019s requirement was: \u201cThere will be a OCR module through which truck drivers will upload the Permit document or take image of the US permit document, and the AI will capture only the starting point, ending point, and intermediate route information, then plot these points on the map.\u201d",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Right-Route-App-OCR-Module",
+    "topics": []
+  },
+  {
+    "name": "Modern-Date-AI-ML-Research-Papers",
+    "description": "Here in this repository I'll upload the research papers that is very important for the AI and ML development",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Modern-Date-AI-ML-Research-Papers",
+    "topics": []
+  },
+  {
+    "name": "AI-Tutorial-Codes-Included",
+    "description": "Codes/Notebooks for AI Projects",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/AI-Tutorial-Codes-Included",
+    "topics": []
+  },
+  {
+    "name": "Prehistorian",
+    "description": "Prehistorian is a predictive codebase cartographer. It analyzes a Git repository's history to find hidden, undocumented behavioral dependencies between files. Unlike static analysis tools that only show import statements, Prehistorian uses historical co-change data to warn developers when they are about to break hidden couplings.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Prehistorian",
+    "topics": []
+  },
+  {
+    "name": "coral",
+    "description": "One SQL interface over APIs, files, and live sources \u2014 built for agents.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/coral",
+    "topics": []
+  },
+  {
+    "name": "Low-Light-ImageEnhancement-using-MIRNet",
+    "description": "Here in this repository I will uplod the notebooks of LOW LIGHT IMAGE ENHANCEMENTS",
+    "stars": 2,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Low-Light-ImageEnhancement-using-MIRNet",
+    "topics": []
+  },
+  {
+    "name": "TensorTonic-Solutions",
+    "description": "My solutions to TensorTonic problems",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/TensorTonic-Solutions",
+    "topics": []
+  },
+  {
+    "name": "ButterCode",
+    "description": "This is the next generation AI-Coding Companion",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/ButterCode",
+    "topics": []
+  },
+  {
+    "name": "Volkswagen-Autonomous-Car-Demonstration",
+    "description": "Volkswagen Autonomous Car Demonstration",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Volkswagen-Autonomous-Car-Demonstration",
+    "topics": []
+  },
+  {
+    "name": "end-to-end-kidney-disease-classification-MLflow-DVC",
+    "description": "deep learning in production(MLOps)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/end-to-end-kidney-disease-classification-MLflow-DVC",
+    "topics": []
+  },
+  {
+    "name": "Right-Route-App-AI-Voice-Module-",
+    "description": "Here the client\u2019s requirement was: \u201cThere will be a voice module through which truck drivers will speak the full route from the US permit document, and the AI will capture only the starting point, ending point, and intermediate route information, then plot these points on the map.\u201d",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Right-Route-App-AI-Voice-Module-",
+    "topics": []
+  },
+  {
+    "name": "Right",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Right",
+    "topics": []
+  },
+  {
+    "name": "chatbot-in-langgraph",
+    "description": "Code related to chatbot developed in LangGraph",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/chatbot-in-langgraph",
+    "topics": []
+  },
+  {
+    "name": "Judicial-AI-Chatbot",
+    "description": "This is essentially a RAG chatbot that has been trained using the Document based on law enforcement regulations. This is just for practice.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Judicial-AI-Chatbot",
+    "topics": []
+  },
+  {
+    "name": "FahimSarker",
+    "description": "this is my portfolio",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "html_url": "https://github.com/fahiiim/FahimSarker",
+    "topics": []
+  },
+  {
+    "name": "marvel-characters",
+    "description": "A complete end-to-end MLOps pipeline for Marvel character data.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/marvel-characters",
+    "topics": []
+  },
+  {
+    "name": "MLOps-learning-from-zoomcamp",
+    "description": "learning mlops",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/MLOps-learning-from-zoomcamp",
+    "topics": []
+  },
+  {
+    "name": "Advanced-SMS-SPAM-Classification-STI-Client-Project",
+    "description": "The AI Solicitor stopper applications SMS Classifications ML training code will be uploaded to this repository. This is a real-time project from SparkTech Agency, and Rayan Liond is the client.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Advanced-SMS-SPAM-Classification-STI-Client-Project",
+    "topics": []
+  },
+  {
+    "name": "Certificates",
+    "description": "ill upload the certificates here",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Certificates",
+    "topics": []
+  },
+  {
+    "name": "RAG-Application-for-DATA-MINING-Text-Book",
+    "description": "I created an Advanced RAG application for the data mining course in order to make the brain for document-based chatbot.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/RAG-Application-for-DATA-MINING-Text-Book",
+    "topics": []
+  },
+  {
+    "name": "mlops-zoomcamp",
+    "description": "Free MLOps course from DataTalks.Club",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/mlops-zoomcamp",
+    "topics": []
+  },
+  {
+    "name": "Snake-Game",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/Snake-Game",
+    "topics": []
+  },
+  {
+    "name": "MLOps-using-the-Random-Forest-Model-on-the-Iris-Dataset",
+    "description": "This is the Experimental way to use the mlfow to learn about the MLOps Pipeline.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/fahiiim/MLOps-using-the-Random-Forest-Model-on-the-Iris-Dataset",
+    "topics": []
+  },
+  {
+    "name": "CourseraMachineLearning",
+    "description": "Coursera Machine Learning By Prof. Andrew Ng",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/CourseraMachineLearning",
+    "topics": []
+  },
+  {
+    "name": "Electricitybillingsystem",
+    "description": "This application will generate electricity bill for urban and rural people based on units consumed.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Electricitybillingsystem",
+    "topics": []
+  },
+  {
+    "name": "Mathematics-for-Machine-Learning-and-Data-Science-Specialization-Coursera",
+    "description": "Mathematics for Machine Learning and Data Science Specialization - Coursera - deeplearning.ai - solutions and notes ",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Mathematics-for-Machine-Learning-and-Data-Science-Specialization-Coursera",
+    "topics": []
+  },
+  {
+    "name": "build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/build-your-own-x",
+    "topics": []
+  },
+  {
+    "name": "course",
+    "description": "The Hugging Face course on Transformers",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/course",
+    "topics": []
+  },
+  {
+    "name": "Assembly-Language-Project",
+    "description": "This Project is about the simple file management system in the lower level machine language(asm)",
+    "stars": 1,
+    "forks": 0,
+    "language": "Assembly",
+    "html_url": "https://github.com/fahiiim/Assembly-Language-Project",
+    "topics": []
+  },
+  {
+    "name": "Basic-Python-Problems",
+    "description": "Here I have praticed some basic problems of python that should cover the all basic toics in raw python programming language.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Basic-Python-Problems",
+    "topics": []
+  },
+  {
+    "name": "Supervised-Learning-Algorithms",
+    "description": "In This sction ,all supervides learnigng algorithms will be featured.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Supervised-Learning-Algorithms",
+    "topics": []
+  },
+  {
+    "name": "flask-Projects",
+    "description": "In this repository i'll upload the basic to advanced projects of flasks",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/flask-Projects",
+    "topics": []
+  },
+  {
+    "name": "Algorithms",
+    "description": "In this repository I'll upload the code of the basic and common Algorithms in python",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Algorithms",
+    "topics": []
+  },
+  {
+    "name": "Software-Installations",
+    "description": "In this repository I'll upload the ways to install the sorwares through the Linux terminal.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Software-Installations",
+    "topics": []
+  },
+  {
+    "name": "Cheatsheets",
+    "description": "In this Repository I'll upload the Cheatsheets",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Cheatsheets",
+    "topics": []
+  },
+  {
+    "name": "kaggle-Competitions",
+    "description": "In this repository i will publish and upload the notebook and resources of the data competitions",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/kaggle-Competitions",
+    "topics": []
+  },
+  {
+    "name": "traffic-enforcement-ai--1-",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/traffic-enforcement-ai--1-",
+    "topics": []
+  },
+  {
+    "name": "DataScience-Projects",
+    "description": "In this Reporitory I will upload my Data Analytics Based projects",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/DataScience-Projects",
+    "topics": []
+  },
+  {
+    "name": "lab",
+    "description": "lab manual",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/lab",
+    "topics": []
+  },
+  {
+    "name": "Skin-Disease-Detection",
+    "description": "In this repo i'll upload the analysis and the Classification/segmentation projects",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Skin-Disease-Detection",
+    "topics": []
+  },
+  {
+    "name": "Cat-vs-Dog-Prediction-Using-Customized-Deep-Learning-Model",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/Cat-vs-Dog-Prediction-Using-Customized-Deep-Learning-Model",
+    "topics": []
+  },
+  {
+    "name": "Cat-vs-Dog-Prediction-Using-Customized-DL-Model",
+    "description": "In this Reporitory I will upload the notebook of  Cat Vs Dog Prediction results with different types of models",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Cat-vs-Dog-Prediction-Using-Customized-DL-Model",
+    "topics": []
+  },
+  {
+    "name": "Disease-Classification-Using-ResNet-50",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Disease-Classification-Using-ResNet-50",
+    "topics": []
+  },
+  {
+    "name": "RAG-Chatbot-Assesment-Task-from-JVAI",
+    "description": "this is the task of interview process",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/RAG-Chatbot-Assesment-Task-from-JVAI",
+    "topics": []
+  },
+  {
+    "name": "Trash-Recognition-with-custom-CNN-Transformer",
+    "description": "Here in this project I use the Custom CNN-Transformer Model for Trash Recognition",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Trash-Recognition-with-custom-CNN-Transformer",
+    "topics": []
+  },
+  {
+    "name": "Leaf-Disease-Classification",
+    "description": ".",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Leaf-Disease-Classification",
+    "topics": []
+  },
+  {
+    "name": "Cattle-Breed-Classification-and-Enhance-Explainability-with-XAI",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Cattle-Breed-Classification-and-Enhance-Explainability-with-XAI",
+    "topics": []
+  },
+  {
+    "name": "RAG-Anything",
+    "description": "\"RAG-Anything: All-in-One RAG System\"",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "html_url": "https://github.com/fahiiim/RAG-Anything",
+    "topics": []
+  },
+  {
+    "name": "Text-Classification-Using-Transformers",
+    "description": "classify  text using the transformers",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Text-Classification-Using-Transformers",
+    "topics": []
+  },
+  {
+    "name": "Large-Language-Model-Fine-Tuning",
+    "description": "Fine-tuning refers to the process of taking a pre-trained model and adapting it to a specific task by training it further on a smaller, domain-specific dataset.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Large-Language-Model-Fine-Tuning",
+    "topics": []
+  },
+  {
+    "name": "Bidirectional-LSTM-on-IMDB",
+    "description": "This repository demonstrates a Bidirectional LSTM model for sentiment analysis on the IMDB movie reviews dataset. The project leverages deep learning techniques to classify reviews as positive or negative, providing a robust baseline for text classification tasks.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Bidirectional-LSTM-on-IMDB",
+    "topics": []
+  },
+  {
+    "name": "Build-a-Small-Language-Model-From-Scrach",
+    "description": "I'll publish the notebook with Small Language Model's fundamental structure here. ",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Build-a-Small-Language-Model-From-Scrach",
+    "topics": []
+  },
+  {
+    "name": "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+    "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+    "stars": 2,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+    "topics": []
+  },
+  {
+    "name": "Build_a_Conditional_Generate_Adversarial_Network_from_Scrach",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Build_a_Conditional_Generate_Adversarial_Network_from_Scrach",
+    "topics": []
+  },
+  {
+    "name": "Multimodal-Retrival-Augmented-generation-Technique",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/Multimodal-Retrival-Augmented-generation-Technique",
+    "topics": []
+  },
+  {
+    "name": "SMS-Fraudulent-Classification",
+    "description": "this is a client project",
+    "stars": 1,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "html_url": "https://github.com/fahiiim/SMS-Fraudulent-Classification",
+    "topics": []
+  }
+]
