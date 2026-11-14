@@ -1,0 +1,121 @@
+\documentclass[9.5pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,left=0.45in,right=0.45in,top=0.28in,bottom=0.28in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue!70!black
+}
+
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}{0em}
+  {}[\titlerule]
+
+\titlespacing*{\section}
+  {0pt}{2.4pt}{1.4pt}
+
+\setlist[itemize]{
+  noitemsep,
+  topsep=0.4pt,
+  partopsep=0pt,
+  parsep=0.3pt,
+  leftmargin=10pt
+}
+
+\begin{document}
+
+{\centering
+    {\Large \textbf{MD. FAHIM SARKER MRIDUL}}\\[1pt]
+    \textbf{AI/ML Computer Vision Engineer --- Deep Learning \& PyTorch}\\[1pt]
+    Dhaka, Bangladesh \;$\vert$\; \href{mailto:fahimsarker0805@gmail.com}{fahimsarker0805@gmail.com} \;$\vert$\; +880 1400-530058 \;$\vert$\; \href{https://fahimsarker.netlify.app}{Portfolio} \;$\vert$\; \href{https://github.com/fahiiim}{GitHub} \;$\vert$\; \href{https://linkedin.com/in/fahim153}{LinkedIn}\par
+}
+
+\vspace{-2.5pt}
+\section*{Professional Summary}
+Computer Vision and Deep Learning Engineer specializing in PyTorch model architectures, Vision Transformers, and object recognition pipelines. Experienced in training, fine-tuning, and optimizing neural networks for spatial feature perception, document image parsing, and medical image diagnostics with Explainable AI (XAI). Directed delivery of \textbf{20+ production AI systems} spanning computer vision, OCR, and multimodal systems. Creator of \textbf{NeuroGebra} (9,000+ researchers; Zenodo DOI).
+
+\section*{Technical Skills}
+\noindent
+\textbf{Deep Learning \& Vision:} PyTorch, Vision Transformers (Swin Transformer), CNNs, Object Detection, Image Segmentation, Grad-CAM, XAI\\
+\textbf{Image Processing \& OCR:} OpenCV, AWS Textract, Document Layout Analysis, Spatial Feature Extraction, Data Augmentation\\
+\textbf{Languages \& Optimization:} Python (Asyncio, NumPy, SciPy), C++, ONNX Runtime, INT8 Quantization, Linux, POSIX Sockets\\
+\textbf{MLOps \& Deployment:} Docker, Weights \& Biases (W\&B), FastAPI, AWS (S3, ECS, EC2), GitHub Actions CI/CD, Git
+
+\section*{Professional Experience}
+\noindent
+\textbf{SparkTech Agency} \hfill Dhaka, Bangladesh\\
+\textit{Mid-Level Software \& AI Systems Engineer} \hfill Sept 2025 -- Present
+\begin{itemize}
+    \item Promoted to Mid-Level to direct a 4-engineer systems team shipping \textbf{20+ production AI, search, and backend systems} (hybrid search, high-concurrency OCR, RAG) from architectural design through client deployment.
+    \item Engineered automated CI evaluation and regression harnesses for production search pipelines, enforcing retrieval precision/recall thresholds, latency SLAs, strict \textbf{Pydantic} validation, and deterministic fallback routing.
+    \item Reduced microservice and model deployment cycle time by \textbf{40\%} across production environments by standardizing multi-stage Docker builds, GitHub Actions CI/CD workflows, and AWS cloud deployments.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{GUB Mars Rover Team} \hfill Dhaka, Bangladesh\\
+\textit{Software Engineer --- Embedded C/C++ \& Telemetry Systems} \hfill May 2024 -- Aug 2025
+\begin{itemize}
+    \item Engineered low-latency \textbf{C/C++ and Python} serial telemetry daemons, multi-sensor fusion, and real-time control loops over POSIX sockets for the CLADOS Mars rover, establishing the technical foundation that placed \textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Live Projects}
+\noindent
+\textbf{Thesis: Vision Transformer \& Explainable AI (XAI) for Image Perception} \hfill \href{https://github.com/fahiiim/Thesis}{GitHub}
+\begin{itemize}
+    \item Trained and evaluated a \textbf{Swin Transformer} architecture for fine-grained image perception and spatial pattern recognition in PyTorch, establishing robust feature attribution benchmarks.
+    \item Integrated Explainable AI (XAI) feature attribution maps using Grad-CAM to localize spatial decision boundaries, improving model transparency and diagnostic interpretability.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{RightRoute --- Spatial Document Layout Analysis \& Vision OCR Pipeline} \hfill \href{https://getrightroute.app}{getrightroute.app} $\vert$ \href{https://github.com/fahiiim/Right-Route-App-OCR-Module}{GitHub}
+\begin{itemize}
+    \item Automated extraction and spatial parsing of complex unstructured documents into route parameters using \textbf{AWS Textract} and custom computer vision preprocessing, achieving \textbf{99\% extraction precision}.
+    \item Engineered scalable cloud architecture decoupling ingestion from heavy processing via \textbf{AWS SQS, ECS, and S3}, maintaining sub-120ms API gateway responsiveness.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{Casezys Legal Search Engine --- Semantic Vector Retrieval Engine} \hfill \href{https://casezys.com}{casezys.com} $\vert$ \href{https://github.com/fahiiim/Legal-Chatbot}{GitHub}
+\begin{itemize}
+    \item Engineered deterministic AST-style structural document chunking and vector indexing over dense statutory corpora, enforcing strict span-grounded citation extraction and \textbf{100\% context verification}.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Open Source Contributions}
+\noindent
+\textbf{TypoFormer (TyPoTaKer) --- Low-Latency Neural Inference Engine} \hfill \href{https://github.com/fahiiim/TyPoTaKer}{GitHub} $\vert$ \href{https://huggingface.co}{Hugging Face}
+\begin{itemize}
+    \item Trained a \textbf{94M-parameter} character-aware hybrid Transformer from scratch, achieving \textbf{9.97ms CPU inference latency} (3.8$\times$ speedup and $\sim$70\% RAM reduction vs.\ FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization, with open-source model weights on Hugging Face.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{NeuroGebra --- Open-Source Symbolic-Neural Framework} \hfill \href{https://pypi.org/project/neurogebra/}{PyPI} $\vert$ \href{https://neurogebra.readthedocs.io}{Documentation} $\vert$ \href{https://github.com/fahiiim/NeuroGebra}{GitHub}
+\begin{itemize}
+    \item Architected and published an open-source framework for real-time mathematical compilation and computational graph visualization, adopted by \textbf{9,000+ researchers, students, and engineers} globally as a PyTorch companion library.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Education}
+\noindent
+\textbf{Green University of Bangladesh} \hfill Dhaka, Bangladesh\\
+\textit{Bachelor of Science in Computer Science \& Engineering (Major: AI \& ML)} \hfill Feb 2022 -- Jan 2026
+
+\section*{Certifications \& Awards}
+\begin{itemize}
+    \item \textbf{AWS Certified AI Practitioner} --- Amazon Web Services (AWS)
+    \item \textbf{HackerRank Certified Software Engineer} --- Credential ID: \href{https://www.hackerrank.com/certificates/23731ba77521}{23731ba77521}
+    \item \textbf{Honors \& Awards:} 1st Runner-Up, Comilla Univ.\ Data Science Hackathon (Nov 2024) $\vert$ Best Innovation Award for ViolaShield (Jan 2025) $\vert$ Finalist, NSU FutureBuilders \& BUBT AI Competition
+\end{itemize}
+
+\end{document}
