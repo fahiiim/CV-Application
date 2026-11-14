@@ -1,0 +1,369 @@
+{
+  "candidate": {
+    "full_name": "Md. Fahim Sarker Mridul",
+    "email": "fahimsarker0805@gmail.com",
+    "phone": "+880 1400-530058",
+    "location": "Dhaka, Bangladesh",
+    "portfolio": "https://fahimsarker.netlify.app",
+    "github": "https://github.com/fahiiim",
+    "linkedin": "https://linkedin.com/in/fahim153",
+    "relocation_pref": "Open to Relocation (San Francisco / Zurich / Singapore) & Remote (CET / Worldwide)"
+  },
+  "education": [
+    {
+      "institution": "Green University of Bangladesh",
+      "degree": "Bachelor of Science in Computer Science & Engineering",
+      "major": "Artificial Intelligence and Machine Learning",
+      "dates": "Feb 2022 \u2013 Jan 2026",
+      "location": "Dhaka, Bangladesh",
+      "focus": "Deep Learning, Transformer Architectures, Computer Vision (Swin Transformer + XAI), Systems Engineering"
+    }
+  ],
+  "certifications_and_awards": [
+    {
+      "title": "AWS Certified AI Practitioner",
+      "issuer": "Amazon Web Services (AWS)",
+      "verification": "AWS Certified"
+    },
+    {
+      "title": "HackerRank Certified Software Engineer",
+      "issuer": "HackerRank",
+      "credential_id": "23731ba77521",
+      "verification": "https://www.hackerrank.com/certificates/23731ba77521"
+    },
+    {
+      "title": "1st Runner-Up",
+      "event": "Comilla University Data Science Hackathon",
+      "date": "Nov 2024",
+      "details": "Ranked 2nd out of competitive university teams in predictive modeling and feature engineering."
+    },
+    {
+      "title": "Best Innovation Award",
+      "event": "IDP-1 University Project Showcase",
+      "date": "Jan 2025",
+      "details": "Awarded for ViolaShield AI project."
+    },
+    {
+      "title": "Finalist",
+      "event": "NSU FutureBuilders AI Hackathon",
+      "date": "Dec 2024"
+    },
+    {
+      "title": "Finalist",
+      "event": "BUBT AI Conquest / AI Competition",
+      "date": "Nov 2025"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "SparkTech Agency",
+      "role": "Mid-Level AI / Software & AI Systems Engineer",
+      "promotion": "Promoted from Junior AI Engineer, July 2026 (within 10 months)",
+      "dates": "Sept 2025 \u2013 Present",
+      "location": "Dhaka, Bangladesh",
+      "bullets": [
+        {
+          "text": "Directed a 3\u20134-engineer team shipping 20+ production AI, search, and backend systems (RAG, OCR pipelines, NLP, CV) from design to client delivery.",
+          "xyz": "Delivered 20+ client production systems across US and European clients by leading a team of 3-4 engineers across full software development lifecycles.",
+          "categories": [
+            "leadership",
+            "client-delivery",
+            "production-ai",
+            "rag",
+            "ocr"
+          ]
+        },
+        {
+          "text": "Built evaluation and validation workflows for RAG responses, including curated test datasets, retrieval metrics, structured-output validation, and fallback handling.",
+          "xyz": "Guaranteed 100% context-grounded responses and eliminated hallucinations by engineering automated CI regression harnesses, retrieval precision/recall thresholds, and Pydantic schema validation.",
+          "categories": [
+            "rag",
+            "evaluation",
+            "pydantic",
+            "ci-cd"
+          ]
+        },
+        {
+          "text": "Reduced microservice and model deployment time by 40% across production environments by standardizing multi-stage Docker builds, GitHub Actions CI/CD workflows, AWS deployments, and Weights & Biases tracking.",
+          "xyz": "Accelerated release velocity by 40% through standardized multi-stage Docker builds, automated GitHub Actions pipelines, and W&B experiment tracking across AWS cloud services.",
+          "categories": [
+            "mlops",
+            "docker",
+            "ci-cd",
+            "aws",
+            "wandb"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "GUB Mars Rover Team",
+      "role": "Software Engineer \u2014 Embedded C/C++ & Telemetry Systems",
+      "dates": "May 2024 \u2013 Aug 2025",
+      "location": "Dhaka, Bangladesh",
+      "bullets": [
+        {
+          "text": "Engineered low-latency C/C++ and Python serial telemetry daemons, multi-sensor fusion, and real-time control loops over POSIX sockets for the CLADOS Mars rover.",
+          "xyz": "Engineered low-latency C/C++ telemetry daemons and multi-sensor fusion algorithms over POSIX sockets, establishing the core technical foundation that placed 6th Worldwide and 1st in Asia at the 2026 Anatolian Rover Challenge.",
+          "categories": [
+            "systems",
+            "cpp",
+            "python",
+            "low-latency",
+            "posix",
+            "embedded",
+            "control-loops"
+          ]
+        }
+      ]
+    }
+  ],
+  "flagship_projects": [
+    {
+      "name": "Neutron",
+      "subtitle": "Distributed Web Crawler & Hybrid Search Engine",
+      "tech": [
+        "Python",
+        "TypeScript",
+        "Playwright",
+        "Chrome DevTools Protocol (CDP)",
+        "Turso (libSQL)",
+        "curl_cffi",
+        "SimHash",
+        "Cuckoo/Bloom"
+      ],
+      "urls": {
+        "github": "https://github.com/fahiiim/Neutron-Web-Crawler",
+        "live": "Live Observatory"
+      },
+      "bullets": [
+        "Mercator Frontier & JIT Search Gateway: Architected an async dual-path crawler decoupling a Mercator two-tier Frontier Scheduler (K priority front queues + per-host FIFO back queues) from a live Search Gateway with domain-diverse JIT parallel bursting.",
+        "Probabilistic Deduplication & Politeness: Eliminated redundant network I/O and infinite URL traps across concurrent domains via O(1) Cuckoo/Bloom URL filters (<2 bytes/URL, <0.1% FPR), 64-bit SimHash (Hamming distance <= 3), and per-host robots.txt token-bucket rate limiters.",
+        "3-Stage Waterfall & Anti-Bot Evasion: Cut headless Chromium CPU/RAM overhead by >80% on dynamic targets via a 3-stage waterfall (Stage 1: sub-50ms curl_cffi HTTP/2 TLS/JA3 fetch; Stage 2: zero-browser SSR JSON hydration extraction; Stage 3: Playwright + CDP aborting media/font/CSS with adaptive 429/503 Retry-After backoff).",
+        "Sub-50ms Hybrid Search & Telemetry: Delivered low-latency hybrid retrieval by combining Turso (libSQL) FTS5 BM25 scoring with dense vectors via Reciprocal Rank Fusion (RRF), freshness-weighted recrawl scheduling, a real-time Observatory UI, and automated GitHub Actions CI/CD migrations."
+      ],
+      "categories": [
+        "distributed-systems",
+        "crawling",
+        "search",
+        "anti-bot",
+        "typescript",
+        "python",
+        "performance",
+        "sqlite-turso"
+      ]
+    },
+    {
+      "name": "TypoFormer (TyPoTaKer)",
+      "subtitle": "Low-Latency Neural Engine & Hybrid Transformer from Scratch",
+      "tech": [
+        "PyTorch",
+        "ONNX Runtime",
+        "INT8 Quantization",
+        "Hugging Face",
+        "Graph Fusion"
+      ],
+      "urls": {
+        "github": "https://github.com/fahiiim/TyPoTaKer",
+        "huggingface": "https://huggingface.co"
+      },
+      "bullets": [
+        "Trained a 94M-parameter character-aware hybrid Transformer from scratch for grammar correction and autocomplete, achieving 9.97ms single-core CPU inference latency (3.8x speedup and ~70% RAM reduction vs. FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization, with publicly released model weights."
+      ],
+      "categories": [
+        "open-source-ml",
+        "transformers",
+        "pytorch",
+        "onnx",
+        "quantization",
+        "low-latency",
+        "inference-optimization"
+      ]
+    },
+    {
+      "name": "NeuroGebra",
+      "subtitle": "Open-Source Symbolic-Neural Framework",
+      "tech": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "JAX",
+        "Autograd",
+        "Zenodo DOI",
+        "PyPI"
+      ],
+      "urls": {
+        "pypi": "https://pypi.org/project/neurogebra/",
+        "doi": "Zenodo DOI"
+      },
+      "bullets": [
+        "Architected and published an open-source symbolic-neural framework for real-time mathematical and execution-graph compilation and visualization, adopted by 9,000+ researchers, students, and engineers globally as a PyTorch/TensorFlow companion tool."
+      ],
+      "categories": [
+        "open-source",
+        "framework-engineering",
+        "pytorch",
+        "tensorflow",
+        "math",
+        "visualization",
+        "community-impact"
+      ]
+    },
+    {
+      "name": "RightRoute",
+      "subtitle": "Automated Document Extraction & Spatial Routing Engine",
+      "tech": [
+        "Python",
+        "AWS Textract",
+        "OpenAI",
+        "NLP",
+        "FastAPI",
+        "STT"
+      ],
+      "urls": {
+        "live": "https://getrightroute.app",
+        "github": "https://github.com/fahiiim/Right-Route-App-OCR-Module"
+      },
+      "bullets": [
+        "Automated the extraction and processing of complex U.S. permit documents into structured route data via AWS Textract and custom OCR parsing, reducing manual document interpretation and enabling a live navigation product to consume permit-specific routing information with 99% accuracy."
+      ],
+      "categories": [
+        "document-ai",
+        "ocr",
+        "aws-textract",
+        "fastapi",
+        "production",
+        "nlp"
+      ]
+    },
+    {
+      "name": "Casezys Legal RAG Assistant",
+      "subtitle": "Production Legal Search & Vector Retrieval Engine",
+      "tech": [
+        "LangChain",
+        "FAISS",
+        "FastAPI",
+        "OpenAI",
+        "Python",
+        "Vector Databases"
+      ],
+      "urls": {
+        "live": "https://casezys.com",
+        "github": "https://github.com/fahiiim/Legal-Chatbot"
+      },
+      "bullets": [
+        "Engineered a production legal RAG search engine over U.S. federal and Michigan statutory corpora using deterministic AST-style article-level structural chunking, FAISS dense vector indexing, and strict span-grounded citation verification, achieving 100% answer relevance and zero hallucination."
+      ],
+      "categories": [
+        "rag",
+        "genai",
+        "vector-search",
+        "faiss",
+        "fastapi",
+        "legal-tech"
+      ]
+    },
+    {
+      "name": "Daily Storybook AI",
+      "subtitle": "Asynchronous Distributed Queue System",
+      "tech": [
+        "FastAPI",
+        "PostgreSQL",
+        "AWS ECS",
+        "AWS SQS",
+        "AWS S3",
+        "AWS Bedrock"
+      ],
+      "urls": {
+        "case_study": "System Case Study",
+        "github": "https://github.com/fahiiim/Daily-StoryBook-Backend-Development"
+      },
+      "bullets": [
+        "Eliminated gateway timeouts and worker starvation under burst traffic (<120ms API latency) by decoupling FastAPI gateway endpoints from heavy background AI inference via dead-lettered AWS SQS queues, auto-scaled ECS workers, and S3 storage."
+      ],
+      "categories": [
+        "backend",
+        "distributed-systems",
+        "aws-sqs",
+        "aws-ecs",
+        "fastapi",
+        "async-queues",
+        "scalability"
+      ]
+    },
+    {
+      "name": "Swedish Citizenship Test AI (Ta Pass)",
+      "subtitle": "Production AI Microservice & Test Engine",
+      "tech": [
+        "FastAPI",
+        "Docker",
+        "CI/CD",
+        "Pytest",
+        "PostgreSQL"
+      ],
+      "urls": {
+        "app_store": "App Store",
+        "github": "https://github.com/fahiiim/Swedish-Language-AI"
+      },
+      "bullets": [
+        "Architected and optimized the production AI backend for 'Ta Pass,' a Swedish citizenship test preparation app; built comprehensive unit and integration test suites for FastAPI services and integrated automated test execution into CI/CD workflows."
+      ],
+      "categories": [
+        "fastapi",
+        "microservices",
+        "testing",
+        "ci-cd",
+        "production"
+      ]
+    },
+    {
+      "name": "Thesis: Vision Transformer & Explainable AI (XAI)",
+      "subtitle": "Computer Vision Research & Benchmark",
+      "tech": [
+        "PyTorch",
+        "Swin Transformer",
+        "Grad-CAM",
+        "XAI",
+        "Computer Vision"
+      ],
+      "urls": {
+        "github": "https://github.com/fahiiim/Thesis"
+      },
+      "bullets": [
+        "Developed and trained a Swin Transformer architecture for medical image classification and object recognition, enhancing interpretability and diagnostic transparency using Grad-CAM and Explainable AI (XAI) feature attribution maps."
+      ],
+      "categories": [
+        "computer-vision",
+        "pytorch",
+        "transformers",
+        "xai",
+        "swin-transformer",
+        "research"
+      ]
+    },
+    {
+      "name": "FastAPI is All You Need",
+      "subtitle": "Production Backend Engineering Handbook & Reference",
+      "tech": [
+        "FastAPI",
+        "SQLAlchemy",
+        "Asyncio",
+        "Redis",
+        "Docker",
+        "Security"
+      ],
+      "urls": {
+        "github": "https://github.com/fahiiim/FastAPI-is-All-You-Need-for-Backend-Development"
+      },
+      "bullets": [
+        "Authored open-source production FastAPI backend engineering handbook covering modular architecture, async I/O, database connection pooling, JWT authentication, rate limiting, and containerized deployment."
+      ],
+      "categories": [
+        "fastapi",
+        "backend",
+        "open-source",
+        "async"
+      ]
+    }
+  ]
+}
