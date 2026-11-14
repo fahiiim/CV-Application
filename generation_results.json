@@ -1,0 +1,112 @@
+[
+  {
+    "id": "JOB-001",
+    "company": "Canonical",
+    "title": "Python and Kubernetes Software Engineer - AI/ML & Analytics",
+    "url": "https://canonical.com/careers/all",
+    "headline": "Python & Kubernetes Systems Engineer --- AI/ML Data Infrastructure",
+    "score": 95,
+    "status": "PASS (1 Page)",
+    "chars": 3926,
+    "folder": "JOB-001_Canonical"
+  },
+  {
+    "id": "JOB-002",
+    "company": "Hugging Face",
+    "title": "Machine Learning Engineer - Open Source",
+    "url": "https://huggingface.co/careers",
+    "headline": "Machine Learning Engineer --- Open Source & Model Optimization",
+    "score": 98,
+    "status": "PASS (1 Page)",
+    "chars": 3721,
+    "folder": "JOB-002_Hugging_Face"
+  },
+  {
+    "id": "JOB-003",
+    "company": "Automattic",
+    "title": "Backend AI Engineer",
+    "url": "https://automattic.com/work-with-us/",
+    "headline": "Backend AI Engineer --- Scalable Microservices, RAG & LLM Infrastructure",
+    "score": 95,
+    "status": "PASS (1 Page)",
+    "chars": 3951,
+    "folder": "JOB-003_Automattic"
+  },
+  {
+    "id": "JOB-004",
+    "company": "AIApply",
+    "title": "Backend Engineer, Python",
+    "url": "https://www.indeed.com/q-worldwide-remote-python-backend-jobs.html",
+    "headline": "Backend Engineer --- Python, Document AI & Asynchronous Pipelines",
+    "score": 99,
+    "status": "PASS (1 Page)",
+    "chars": 3767,
+    "folder": "JOB-004_AIApply"
+  },
+  {
+    "id": "JOB-005",
+    "company": "CAST AI",
+    "title": "Senior Machine Learning Engineer / LLM Engineer",
+    "url": "https://cast.ai/careers/",
+    "headline": "Senior Machine Learning & LLM Engineer --- Inference Optimization & Systems",
+    "score": 95,
+    "status": "PASS (1 Page)",
+    "chars": 3848,
+    "folder": "JOB-005_CAST_AI"
+  },
+  {
+    "id": "JOB-006",
+    "company": "Proxify",
+    "title": "Senior ML Engineer (Python)",
+    "url": "https://proxify.io/jobs",
+    "headline": "Senior ML & Python Systems Engineer --- Production AI Delivery & MLOps",
+    "score": 97,
+    "status": "PASS (1 Page)",
+    "chars": 3909,
+    "folder": "JOB-006_Proxify"
+  },
+  {
+    "id": "JOB-007",
+    "company": "Deepshot Labs",
+    "title": "Backend Engineer",
+    "url": "https://deepshot.ai/careers",
+    "headline": "Backend Engineer --- Python, TypeScript & Asynchronous AI Workflows",
+    "score": 95,
+    "status": "PASS (1 Page)",
+    "chars": 3784,
+    "folder": "JOB-007_Deepshot_Labs"
+  },
+  {
+    "id": "JOB-008",
+    "company": "DocuSketch",
+    "title": "Remote AI ML Engineer",
+    "url": "https://remoteok.com/remote-jobs/remote-ai-ml-engineer-docusketch-1137619",
+    "headline": "AI/ML Computer Vision Engineer --- Deep Learning & PyTorch",
+    "score": 96,
+    "status": "PASS (1 Page)",
+    "chars": 3929,
+    "folder": "JOB-008_DocuSketch"
+  },
+  {
+    "id": "JOB-009",
+    "company": "Toptal",
+    "title": "AI / ML Engineer",
+    "url": "https://www.toptal.com/careers",
+    "headline": "AI/ML Systems Engineer --- Generative AI, RAG & Cloud Architecture",
+    "score": 99,
+    "status": "PASS (1 Page)",
+    "chars": 4006,
+    "folder": "JOB-009_Toptal"
+  },
+  {
+    "id": "JOB-010",
+    "company": "Phaidra",
+    "title": "Remote Senior Software Engineer",
+    "url": "https://phaidra.ai/careers",
+    "headline": "Senior Software Engineer --- Distributed Systems & Low-Latency Infrastructure",
+    "score": 97,
+    "status": "PASS (1 Page)",
+    "chars": 4149,
+    "folder": "JOB-010_Phaidra"
+  }
+]
