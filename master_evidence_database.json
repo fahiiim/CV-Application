@@ -134,7 +134,7 @@
       ],
       "urls": {
         "github": "https://github.com/fahiiim/Neutron-Web-Crawler",
-        "live": "Live Observatory"
+        "live": "https://fahiiim.github.io/Neutron-Web-Crawler"
       },
       "bullets": [
         "Mercator Frontier & JIT Search Gateway: Architected an async dual-path crawler decoupling a Mercator two-tier Frontier Scheduler (K priority front queues + per-host FIFO back queues) from a live Search Gateway with domain-diverse JIT parallel bursting.",
@@ -165,7 +165,7 @@
       ],
       "urls": {
         "github": "https://github.com/fahiiim/TyPoTaKer",
-        "huggingface": "https://huggingface.co"
+        "huggingface": "https://huggingface.co/fahiiim/TypoFormer"
       },
       "bullets": [
         "Trained a 94M-parameter character-aware hybrid Transformer from scratch for grammar correction and autocomplete, achieving 9.97ms single-core CPU inference latency (3.8x speedup and ~70% RAM reduction vs. FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization, with publicly released model weights."
@@ -302,7 +302,7 @@
         "PostgreSQL"
       ],
       "urls": {
-        "app_store": "App Store",
+        "app_store": "https://apps.apple.com/us/app/ta-pass-swedish-citizenship/id6799644651",
         "github": "https://github.com/fahiiim/Swedish-Language-AI"
       },
       "bullets": [
