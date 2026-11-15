@@ -14,8 +14,8 @@ Every resume has been rigorously scrutinized and optimized from the perspective 
 2. **Purged All Questionable / Creepy / Anti-Pattern Terminology:**
    - Eliminated phrases like *"Anti-Bot Evasion"*, *"stealth headless rendering"*, or *"JA3 fingerprinting bypass"*, which raise immediate compliance, security, and ethics red flags in corporate enterprise recruiting.
    - Reframed to industry-standard high-concurrency systems engineering: *"Dynamic Web Rendering & Resource Optimization"*, *"RFC-compliant robots.txt token-bucket rate limiting"*, and *"O(1) Cuckoo/Bloom deduplication filters"*.
-3. **Full-Page Edge-to-Edge Utilization (92%--97% Fill):**
-   - Zero awkward bottom gaps. Each CV fills the single A4 page from top to bottom (bottom clearance: 22pt--66pt) while remaining **strictly on EXACTLY ONE PAGE**.
+3. **Full-Page Edge-to-Edge Utilization (92%-97% Fill):**
+   - Zero awkward bottom gaps. Each CV fills the single A4 page from top to bottom (bottom clearance: 22pt-66pt) while remaining **strictly on EXACTLY ONE PAGE**.
 4. **Dedicated Project Sections:**
    - **`Live Projects`**: Commercial and production platforms (`RightRoute`, `Casezys`, `Neutron`, `Swedish Citizenship App`).
    - **`Open Source Contributions`**: Framework engineering and published model weights (`TypoFormer` on Hugging Face, `NeuroGebra` on PyPI/ReadTheDocs).
@@ -33,7 +33,7 @@ Every resume has been rigorously scrutinized and optimized from the perspective 
 ## 2. Summary of Completed Deliverables & Honest Recruiter Ratings
 
 | Job ID | Company | Job Title | Target Focus | Score | Page Status | Key Deliverables |
-|:---:|:---|:---|:---|:---:|:---:|:---|
+|:-:|:-|:-|:-|:-:|:-:|:-|
 | **JOB-001** | **Canonical** | Python & Kubernetes Software Engineer | Cloud-Native Data Infra & MLOps | **95/100** | PASS (95.0% Fill) | [`resume.tex`](JOB-001_Canonical/resume.tex) $\vert$ [`resume.pdf`](JOB-001_Canonical/resume.pdf) $\vert$ [`evaluation.md`](JOB-001_Canonical/evaluation.md) |
 | **JOB-002** | **Hugging Face** | Machine Learning Engineer - Open Source | Transformer Architectures & ONNX Optimization | **97/100** | PASS (92.1% Fill) | [`resume.tex`](JOB-002_Hugging_Face/resume.tex) $\vert$ [`resume.pdf`](JOB-002_Hugging_Face/resume.pdf) $\vert$ [`evaluation.md`](JOB-002_Hugging_Face/evaluation.md) |
 | **JOB-003** | **Automattic** | Backend AI Engineer | Scalable Microservices, RAG & LLM Integration | **95/100** | PASS (93.6% Fill) | [`resume.tex`](JOB-003_Automattic/resume.tex) $\vert$ [`resume.pdf`](JOB-003_Automattic/resume.pdf) $\vert$ [`evaluation.md`](JOB-003_Automattic/evaluation.md) |
@@ -52,14 +52,14 @@ Every resume has been rigorously scrutinized and optimized from the perspective 
 ```text
 tailored_cvs/
 │
-├── README.md                          <-- Comprehensive summary and navigation index
-├── master_job_analysis.xlsx           <-- Master analysis spreadsheet with scores & ATS mapping
+├── README.md                          <- Comprehensive summary and navigation index
+├── master_job_analysis.xlsx           <- Master analysis spreadsheet with scores & ATS mapping
 │
 ├── JOB-001_Canonical/
-│   ├── resume.tex                     <-- Compilable LaTeX source
-│   ├── resume.pdf                     <-- Exactly ONE A4 page compiled PDF (>93% page fill)
-│   ├── resume.png                     <-- High-resolution visual rendering
-│   └── evaluation.md                  <-- 100-point rubric evaluation report
+│   ├── resume.tex                     <- Compilable LaTeX source
+│   ├── resume.pdf                     <- Exactly ONE A4 page compiled PDF (>93% page fill)
+│   ├── resume.png                     <- High-resolution visual rendering
+│   └── evaluation.md                  <- 100-point rubric evaluation report
 │
 ├── ...
 │
