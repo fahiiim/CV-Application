@@ -6,7 +6,7 @@
     "url": "https://canonical.com/careers/all",
     "score": 95,
     "chars": 4271,
-    "clearance": 95.245361328125
+    "clearance": 33.6375732421875
   },
   {
     "id": "JOB-002",
@@ -15,7 +15,7 @@
     "url": "https://huggingface.co/careers",
     "score": 98,
     "chars": 3933,
-    "clearance": 143.77294921875
+    "clearance": 54.10260009765625
   },
   {
     "id": "JOB-003",
@@ -24,7 +24,7 @@
     "url": "https://automattic.com/work-with-us/",
     "score": 95,
     "chars": 4049,
-    "clearance": 119.35498046875
+    "clearance": 41.63958740234375
   },
   {
     "id": "JOB-004",
@@ -33,7 +33,7 @@
     "url": "https://www.indeed.com/q-worldwide-remote-python-backend-jobs.html",
     "score": 99,
     "chars": 4136,
-    "clearance": 131.11083984375
+    "clearance": 41.340576171875
   },
   {
     "id": "JOB-005",
@@ -42,7 +42,7 @@
     "url": "https://cast.ai/careers/",
     "score": 95,
     "chars": 4065,
-    "clearance": 119.862548828125
+    "clearance": 42.1475830078125
   },
   {
     "id": "JOB-006",
@@ -51,7 +51,7 @@
     "url": "https://proxify.io/jobs",
     "score": 97,
     "chars": 4014,
-    "clearance": 131.31005859375
+    "clearance": 41.63958740234375
   },
   {
     "id": "JOB-007",
@@ -60,7 +60,7 @@
     "url": "https://deepshot.ai/careers",
     "score": 95,
     "chars": 4160,
-    "clearance": 107.2005615234375
+    "clearance": 29.38555908203125
   },
   {
     "id": "JOB-008",
@@ -69,7 +69,7 @@
     "url": "https://remoteok.com/remote-jobs/remote-ai-ml-engineer-docusketch-1137619",
     "score": 96,
     "chars": 4036,
-    "clearance": 107.2005615234375
+    "clearance": 30.3865966796875
   },
   {
     "id": "JOB-009",
@@ -78,7 +78,7 @@
     "url": "https://www.toptal.com/careers",
     "score": 99,
     "chars": 4090,
-    "clearance": 130.701171875
+    "clearance": 52.985595703125
   },
   {
     "id": "JOB-010",
@@ -87,6 +87,6 @@
     "url": "https://phaidra.ai/careers",
     "score": 97,
     "chars": 4519,
-    "clearance": 47.0262451171875
+    "clearance": 17.5435791015625
   }
 ]
