@@ -1,0 +1,121 @@
+\documentclass[9.5pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,left=0.45in,right=0.45in,top=0.23in,bottom=0.23in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue!70!black
+}
+
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}{0em}
+  {}[\titlerule]
+
+\titlespacing*{\section}
+  {0pt}{1.8pt}{1.0pt}
+
+\setlist[itemize]{
+  noitemsep,
+  topsep=0.4pt,
+  partopsep=0pt,
+  parsep=0.15pt,
+  leftmargin=10pt
+}
+
+\begin{document}
+
+{\centering
+    {\Large \textbf{MD. FAHIM SARKER MRIDUL}}\\[1pt]
+    \textbf{Voice \& Conversational AI Engineer - Real-Time Telephony, Speech AI \& LLM Agents}\\[1pt]
+    Dhaka, Bangladesh \;$\vert$\; \href{mailto:fahimsarker0805@gmail.com}{fahimsarker0805@gmail.com} \;$\vert$\; +880 1400-530058\\[1pt]
+    \href{https://fahimsarker.netlify.app}{fahimsarker.netlify.app} \;$\vert$\; \href{https://github.com/fahiiim}{github.com/fahiiim} \;$\vert$\; \href{https://linkedin.com/in/fahim153}{linkedin.com/in/fahim153}\par
+}
+
+\vspace{-4.5pt}
+\section*{Professional Summary}
+Voice and Conversational AI Engineer based in Dhaka specializing in real-time telephony architectures, speech processing pipelines (ASR, TTS, VAD), and LLM-powered voice agents. Architect of GoCustify's production voice AI system: engineered dual WebSocket bridging between Telnyx VoIP and real-time speech engines over 8 kHz G.711 $\mu$-law audio, early DTMF barge-in IVR routing, and sub-second voice-to-workflow automation. Experienced in deploying multilingual conversational agents, optimizing Time-to-First-Audio (TTFA), and building scalable microservices in Python (FastAPI, WebSockets, Docker).
+
+\section*{Technical Skills}
+\noindent
+\textbf{Speech AI \& Audio Processing:} Speech-to-Text (ASR), Text-to-Speech (TTS), Voice Activity Detection (VAD), 8 kHz Telephony Codecs (G.711 $\mu$-law/PCM), Audio Streaming, WER Optimization\\
+\textbf{Conversational AI \& Telephony:} Real-Time Voice Agents, SIP/VoIP Telephony (Telnyx), Intelligent IVR, Early DTMF Barge-In, LangGraph State Machines, Call Disposition Analytics\\
+\textbf{LLMs, RAG \& Multilingual NLP:} Context-Aware Reasoning, Retrieval-Augmented Generation (RAG), Vector Databases (FAISS), Multilingual Processing (Bangla/English/Code-Mixed), Prompt Chaining\\
+\textbf{Systems \& Production MLOps:} Python (Asyncio, WebSockets), FastAPI Microservices, Docker, Redis, PostgreSQL, AWS (ECS, SQS, S3), Linux, PyTest, CI/CD
+
+\section*{Professional Experience}
+\noindent
+\textbf{SparkTech Agency} \hfill Dhaka, Bangladesh\\
+\textit{Mid-Level Software \& AI Systems Engineer} \hfill Sept 2025 - Present
+\begin{itemize}
+    \item Direct a 4-engineer systems team shipping \textbf{20+ production AI, voice, and backend systems} (real-time voice streaming, high-throughput OCR, RAG) from architectural design through client deployment.
+    \item Architected automated CI evaluation and regression test suites for conversational voice and API workflows, enforcing latency SLAs, strict \textbf{Pydantic} schema validation, and deterministic fallback routing.
+    \item Standardized multi-stage Docker builds, WebSocket streaming gateways, and AWS cloud deployments, reducing microservice and model deployment cycle times by \textbf{40\%}.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{GUB Mars Rover Team} \hfill Dhaka, Bangladesh\\
+\textit{Software Engineer - Embedded C/C++ \& Telemetry Systems} \hfill May 2024 - Aug 2025
+\begin{itemize}
+    \item Engineered low-latency \textbf{C/C++ and Python} serial telemetry daemons, sensor fusion, and real-time control loops over POSIX sockets for the CLADOS Mars rover, placing \textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Live Projects}
+\noindent
+\textbf{GoCustify - Production Telephony AI \& Real-Time Voice Agent} \hfill \href{https://gocustify.com}{gocustify.com}
+\begin{itemize}
+    \item Architected a real-time conversational voice agent bridging \textbf{Telnyx SIP/VoIP WebSockets} and speech-to-speech streaming over \textbf{8 kHz G.711 $\mu$-law audio}, achieving low-latency full-duplex conversations.
+    \item Engineered an intelligent IVR engine supporting \textbf{early DTMF barge-in}, language switching, audio sentence chunking to minimize Time-to-First-Audio (TTFA), and automated call disposition categorization.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{Casezys Legal Agent - Vector Retrieval \& Context Grounding} \hfill \href{https://casezys.com}{casezys.com}
+\begin{itemize}
+    \item Built an autonomous research agent using FAISS dense vector search and strict span-grounded citation extraction, enforcing \textbf{100\% answer relevance} and zero hallucination on complex queries.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{RightRoute - Spatial Extraction \& Document Intelligence} \hfill \href{https://getrightroute.app}{getrightroute.app}
+\begin{itemize}
+    \item Automated extraction and spatial document parsing using \textbf{AWS Textract} and custom NLP parsers (99\% precision), decoupling ingestion via SQS queues and ECS workers ($<$120ms latency).
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Open Source Contributions}
+\noindent
+\textbf{TypoFormer (TyPoTaKer) - Low-Latency Neural Inference Engine} \hfill \href{https://huggingface.co/fahiiim/TypoFormer}{huggingface.co} $\vert$ \href{https://github.com/fahiiim/TyPoTaKer}{github.com}
+\begin{itemize}
+    \item Trained a \textbf{94M-parameter} character-aware hybrid Transformer from scratch, achieving \textbf{9.97ms CPU inference latency} (3.8$\times$ speedup and $\sim$70\% RAM reduction vs.\ FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization, with open-source model weights on Hugging Face.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{NeuroGebra - Open-Source Symbolic-Neural Framework} \hfill \href{https://pypi.org/project/neurogebra/}{pypi.org} $\vert$ \href{https://neurogebra.readthedocs.io}{neurogebra.readthedocs.io}
+\begin{itemize}
+    \item Architected and published an open-source framework for mathematical compilation and computational graph visualization, adopted by \textbf{9,000+ researchers, students, and engineers} globally as a PyTorch companion library.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Education}
+\noindent
+\textbf{Green University of Bangladesh} \hfill Dhaka, Bangladesh\\
+\textit{Bachelor of Science in Computer Science \& Engineering (Major: AI \& ML)} \hfill Feb 2022 - Jan 2026
+
+\section*{Certifications \& Awards}
+\begin{itemize}
+    \item \textbf{AWS Certified AI Practitioner} - Amazon Web Services (AWS)
+    \item \textbf{HackerRank Certified Software Engineer} - Credential ID: \href{https://www.hackerrank.com/certificates/23731ba77521}{23731ba77521}
+    \item \textbf{Honors \& Awards:} 1st Runner-Up, Comilla Univ.\ Data Science Hackathon (Nov 2024) $\vert$ Best Innovation Award for ViolaShield (Jan 2025) $\vert$ Finalist, NSU FutureBuilders \& BUBT AI Competition
+\end{itemize}
+
+\end{document}
