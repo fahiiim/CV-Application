@@ -35,7 +35,7 @@
 ---
 
 ## 3. Strongest Matching Qualifications
-- **Python and TypeScript backend architecture (Neutron crawler dual-stack, FastAPI)**
+- **Python and TypeScript backend architecture (RatedDocs AI SaaS dual-stack, FastAPI)**
 - **Decoupled asynchronous queue architectures for heavy generative AI workloads (RightRoute AWS SQS/ECS)**
 - **Audio and document processing pipelines (Speech-to-Text STT and AWS Textract OCR)**
 - **Production microservices deployment with Docker and AWS CI/CD**
@@ -54,7 +54,7 @@
 ---
 
 ## 6. Strategic Recommendations & Optimization Details
-- Highlight the TypeScript architecture in Neutron crawler and asynchronous queue mastery in RightRoute.
+- Highlight the TypeScript architecture in RatedDocs AI SaaS and asynchronous queue mastery in RightRoute.
 
 ---
 
