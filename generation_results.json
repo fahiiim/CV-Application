@@ -7,8 +7,9 @@
     "headline": "Python & Kubernetes Systems Engineer - AI/ML Data Infrastructure",
     "score": 95,
     "status": "PASS (1 Page)",
-    "chars": 3926,
-    "folder": "JOB-001_Canonical"
+    "chars": 7231,
+    "folder": "JOB-001_Canonical",
+    "clearance": 33.6375732421875
   },
   {
     "id": "JOB-002",
@@ -18,8 +19,9 @@
     "headline": "Machine Learning Engineer - Open Source & Model Optimization",
     "score": 98,
     "status": "PASS (1 Page)",
-    "chars": 3721,
-    "folder": "JOB-002_Hugging_Face"
+    "chars": 6934,
+    "folder": "JOB-002_Hugging_Face",
+    "clearance": 54.10260009765625
   },
   {
     "id": "JOB-003",
@@ -29,8 +31,9 @@
     "headline": "Backend AI Engineer - Scalable Microservices, RAG & LLM Infrastructure",
     "score": 95,
     "status": "PASS (1 Page)",
-    "chars": 3951,
-    "folder": "JOB-003_Automattic"
+    "chars": 7094,
+    "folder": "JOB-003_Automattic",
+    "clearance": 41.63958740234375
   },
   {
     "id": "JOB-004",
@@ -40,8 +43,9 @@
     "headline": "Backend Engineer - Python, Document AI & Asynchronous Pipelines",
     "score": 99,
     "status": "PASS (1 Page)",
-    "chars": 3767,
-    "folder": "JOB-004_AIApply"
+    "chars": 7171,
+    "folder": "JOB-004_AIApply",
+    "clearance": 41.340576171875
   },
   {
     "id": "JOB-005",
@@ -51,8 +55,9 @@
     "headline": "Senior Machine Learning & LLM Engineer - Inference Optimization & Systems",
     "score": 95,
     "status": "PASS (1 Page)",
-    "chars": 3848,
-    "folder": "JOB-005_CAST_AI"
+    "chars": 7038,
+    "folder": "JOB-005_CAST_AI",
+    "clearance": 30.19256591796875
   },
   {
     "id": "JOB-006",
@@ -62,8 +67,9 @@
     "headline": "Senior ML & Python Systems Engineer - Production AI Delivery & MLOps",
     "score": 97,
     "status": "PASS (1 Page)",
-    "chars": 3909,
-    "folder": "JOB-006_Proxify"
+    "chars": 7006,
+    "folder": "JOB-006_Proxify",
+    "clearance": 41.63958740234375
   },
   {
     "id": "JOB-007",
@@ -73,8 +79,9 @@
     "headline": "Backend Engineer - Python, TypeScript & Asynchronous AI Workflows",
     "score": 95,
     "status": "PASS (1 Page)",
-    "chars": 3784,
-    "folder": "JOB-007_Deepshot_Labs"
+    "chars": 7046,
+    "folder": "JOB-007_Deepshot_Labs",
+    "clearance": 29.38555908203125
   },
   {
     "id": "JOB-008",
@@ -84,8 +91,9 @@
     "headline": "AI/ML Computer Vision Engineer - Deep Learning & PyTorch",
     "score": 96,
     "status": "PASS (1 Page)",
-    "chars": 3929,
-    "folder": "JOB-008_DocuSketch"
+    "chars": 7046,
+    "folder": "JOB-008_DocuSketch",
+    "clearance": 30.3865966796875
   },
   {
     "id": "JOB-009",
@@ -95,8 +103,9 @@
     "headline": "AI/ML Systems Engineer - Generative AI, RAG & Cloud Architecture",
     "score": 99,
     "status": "PASS (1 Page)",
-    "chars": 4006,
-    "folder": "JOB-009_Toptal"
+    "chars": 7066,
+    "folder": "JOB-009_Toptal",
+    "clearance": 52.985595703125
   },
   {
     "id": "JOB-010",
@@ -106,7 +115,116 @@
     "headline": "Senior Software Engineer - Distributed Systems & Low-Latency Infrastructure",
     "score": 97,
     "status": "PASS (1 Page)",
-    "chars": 4149,
-    "folder": "JOB-010_Phaidra"
+    "chars": 7036,
+    "folder": "JOB-010_Phaidra",
+    "clearance": 17.5435791015625
+  },
+  {
+    "id": "JOB-011",
+    "company": "MacroCoderz",
+    "title": "Python Developer",
+    "url": "https://macrocoderz.com/careers/python-developer",
+    "headline": "Python Developer",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 6852,
+    "folder": "JOB-011_MacroCoderz",
+    "clearance": 65.54058837890625
+  },
+  {
+    "id": "JOB-012",
+    "company": "MixRank",
+    "title": "Junior Software Engineer - Remote (Global)",
+    "url": "https://www.ycombinator.com/companies/mixrank/jobs/Fnwsojk-junior-software-engineer-remote-global-full-time",
+    "headline": "Junior Software Engineer - Remote (Global)",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 6979,
+    "folder": "JOB-012_MixRank",
+    "clearance": 53.40557861328125
+  },
+  {
+    "id": "JOB-013",
+    "company": "Evaboot",
+    "title": "Agentic Python Engineer",
+    "url": "https://zrobinz.github.io/evaboot-jobs/",
+    "headline": "Agentic Python Engineer",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 7240,
+    "folder": "JOB-013_Evaboot",
+    "clearance": 17.361572265625
+  },
+  {
+    "id": "JOB-014",
+    "company": "HFT Architecture",
+    "title": "Junior Machine Learning Engineer",
+    "url": "https://hftarchitecture.com/careers/junior-machine-learning-engineer",
+    "headline": "Junior Machine Learning Engineer",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 7126,
+    "folder": "JOB-014_HFT_Architecture",
+    "clearance": 29.49560546875
+  },
+  {
+    "id": "JOB-015",
+    "company": "Softwise",
+    "title": "AI Engineer, Recommendation Systems",
+    "url": "https://softwise.app/join-us/ai-engineer-recommendation-systems",
+    "headline": "AI Engineer, Recommendation Systems",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 7079,
+    "folder": "JOB-015_Softwise",
+    "clearance": 41.95855712890625
+  },
+  {
+    "id": "JOB-016",
+    "company": "TensorOps",
+    "title": "Mid AI Engineer",
+    "url": "https://trulyremotework.com/jobs/mid-level-ai-engineer-tensorops",
+    "headline": "Mid AI Engineer",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 6979,
+    "folder": "JOB-016_TensorOps",
+    "clearance": 64.93157958984375
+  },
+  {
+    "id": "JOB-017",
+    "company": "ClearML",
+    "title": "Junior Machine Learning Engineer",
+    "url": "https://clear.ml/careers",
+    "headline": "Junior Machine Learning Engineer",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 7007,
+    "folder": "JOB-017_ClearML",
+    "clearance": 53.5855712890625
+  },
+  {
+    "id": "JOB-018",
+    "company": "Ecowind",
+    "title": "Backend (Python) / Data Infrastructure Engineer",
+    "url": "https://djinni.co/jobs/857394-backend-python-data-infrastructure-engineer/",
+    "headline": "Backend (Python) / Data Infrastructure Engineer",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 7108,
+    "folder": "JOB-018_Ecowind",
+    "clearance": 29.49560546875
+  },
+  {
+    "id": "JOB-019",
+    "company": "Xperteez Technology",
+    "title": "Junior Machine Learning Engineer (contract project)",
+    "url": "https://remotive.com/remote/jobs/artificial-intelligence/junior-machine-learning-engineer-6594252",
+    "headline": "Junior Machine Learning Engineer (contract project)",
+    "score": 100,
+    "status": "PASS (1 Page)",
+    "chars": 7250,
+    "folder": "JOB-019_Xperteez_Technology",
+    "clearance": 30.00360107421875
   }
 ]
