@@ -1,0 +1,121 @@
+\documentclass[9.5pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,left=0.45in,right=0.45in,top=0.24in,bottom=0.24in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue!70!black
+}
+
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}{0em}
+  {}[\titlerule]
+
+\titlespacing*{\section}
+  {0pt}{1.8pt}{1.0pt}
+
+\setlist[itemize]{
+  noitemsep,
+  topsep=0.4pt,
+  partopsep=0pt,
+  parsep=0.18pt,
+  leftmargin=10pt
+}
+
+\begin{document}
+
+{\centering
+    {\Large \textbf{MD. FAHIM SARKER MRIDUL}}\\[1pt]
+    \textbf{Machine Learning Engineer - MLOps, Experiment Tracking & Deep Learning Systems}\\[1pt]
+    Dhaka, Bangladesh \;$\vert$\; \href{mailto:fahimsarker0805@gmail.com}{fahimsarker0805@gmail.com} \;$\vert$\; +880 1400-530058\\[1pt]
+    \href{https://fahimsarker.netlify.app}{fahimsarker.netlify.app} \;$\vert$\; \href{https://github.com/fahiiim}{github.com/fahiiim} \;$\vert$\; \href{https://linkedin.com/in/fahim153}{linkedin.com/in/fahim153}\par
+}
+
+\vspace{-4pt}
+\section*{Professional Summary}
+Machine Learning Engineer specializing in deep learning architectures, automated MLOps pipelines, and computational graph visualization. Creator of NeuroGebra (open-source symbolic-neural visualization library adopted by 9,000+ researchers globally). Proficient in PyTorch, Docker containerization, Kubernetes workload deployment, and automated CI evaluation regression harnesses. Graduate with B.Sc. in CSE (Major in AI & ML). Fully equipped for async remote work and global team collaboration.
+
+\section*{Technical Skills}
+\noindent
+\textbf{MLOps & Experiment Tracking:} ClearML/W&B/MLflow Telemetry, Model Versioning, Automated Regression Testing, Docker Multi-Stage Builds, Kubernetes Workloads\\
+\textbf{Deep Learning & ML Systems:} PyTorch, Transformer Architectures, ONNX Runtime Graph Fusion, Dynamic INT8 Quantization, Scikit-Learn, Vector Indexing (FAISS)\\
+\textbf{Systems & Visualization:} Computational Graph Visualization, Mathematical Compilation, Linux Administration, Git, Bash, SQL, PostgreSQL\\
+\textbf{Data Pipelines & APIs:} FastAPI, Pydantic, High-Throughput Data Preprocessing, Unstructured Data Parsing, CI/CD GitHub Actions, AWS
+
+\section*{Professional Experience}
+\noindent
+\textbf{SparkTech Agency} \hfill Dhaka, Bangladesh\\
+\textit{Mid-Level Software & AI Systems Engineer} \hfill Sept 2025 - Present
+\begin{itemize}
+    \item Promoted to Mid-Level to direct a 4-engineer systems team shipping \textbf{20+ production AI, search, and backend systems} (hybrid search, high-concurrency OCR, RAG) from architectural design through client deployment.
+    \item Engineered automated CI evaluation and regression harnesses for production search pipelines, enforcing retrieval precision/recall thresholds, latency SLAs, strict \textbf{Pydantic} validation, and deterministic fallback routing.
+    \item Reduced microservice and model deployment cycle time by \textbf{40\%} across production environments by standardizing multi-stage Docker builds, GitHub Actions CI/CD workflows, and AWS cloud deployments.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{GUB Mars Rover Team} \hfill Dhaka, Bangladesh\\
+\textit{Software Engineer - Embedded C/C++ & Telemetry Systems} \hfill May 2024 - Aug 2025
+\begin{itemize}
+    \item Engineered low-latency \textbf{C/C++ and Python} serial telemetry daemons, multi-sensor fusion, and real-time control loops over POSIX sockets for the CLADOS Mars rover, placing \textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Open Source Contributions}
+\noindent
+\textbf{NeuroGebra - Open-Source Symbolic-Neural Framework} \hfill \href{https://pypi.org/project/neurogebra/}{pypi.org} $\vert$ \href{https://neurogebra.readthedocs.io}{neurogebra.readthedocs.io}
+\begin{itemize}
+    \item Architected and published an open-source framework for mathematical compilation and computational graph visualization, adopted by \textbf{9,000+ researchers, students, and engineers} globally as a PyTorch companion library.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{TypoFormer (TyPoTaKer) - Low-Latency Neural Inference Engine} \hfill \href{https://huggingface.co/fahiiim/TypoFormer}{huggingface.co} $\vert$ \href{https://github.com/fahiiim/TyPoTaKer}{github.com}
+\begin{itemize}
+    \item Trained a \textbf{94M-parameter} character-aware hybrid Transformer from scratch, achieving \textbf{9.97ms CPU inference latency} (3.8$\times$ speedup and $\sim$70\% RAM reduction vs.\ FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization, with open-source model weights on Hugging Face.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Live Projects}
+\noindent
+\textbf{RightRoute - Multimodal Extraction & MLOps Pipeline} \hfill \href{https://getrightroute.app}{getrightroute.app}
+\begin{itemize}
+    \item Automated the extraction of complex U.S. freight permit documents into validated route schemas using \textbf{AWS Textract} and custom parsers, achieving \textbf{99\% extraction accuracy} for commercial logistics.
+    \item Decoupled synchronous FastAPI endpoints from heavy background document ingestion via dead-lettered \textbf{AWS SQS queues, auto-scaled ECS workers, and S3}, maintaining $<$120ms gateway response times.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{Casezys Legal Search Engine - Semantic Vector Retrieval} \hfill \href{https://casezys.com}{casezys.com}
+\begin{itemize}
+    \item Engineered a production legal search and retrieval engine using FAISS dense vector indexing and strict span-grounded citation verification, achieving \textbf{100\% answer relevance} and zero hallucination.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{RatedDocs - AI SaaS Platform \& Automated MLOps Pipeline} \hfill \href{https://rateddocs.com}{rateddocs.com}
+\begin{itemize}
+    \item Architected an automated 6-step provider statutory verification pipeline and computer vision smile preview microservices in FastAPI and Docker, enforcing telemetry logging, latency SLAs ($<$120ms), and structured Pydantic validation.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Education}
+\noindent
+\textbf{Green University of Bangladesh} \hfill Dhaka, Bangladesh\\
+\textit{Bachelor of Science in Computer Science \& Engineering (Major: AI \& ML)} \hfill Feb 2022 - Jan 2026
+
+\section*{Certifications \& Awards}
+\begin{itemize}
+    \item \textbf{AWS Certified AI Practitioner} - Amazon Web Services (AWS)
+    \item \textbf{HackerRank Certified Software Engineer} - Credential ID: \href{https://www.hackerrank.com/certificates/23731ba77521}{23731ba77521}
+    \item \textbf{Honors \& Awards:} 1st Runner-Up, Comilla Univ.\ Data Science Hackathon (Nov 2024) $\vert$ Best Innovation Award for ViolaShield (Jan 2025) $\vert$ Finalist, NSU FutureBuilders \& BUBT AI Competition
+\end{itemize}
+
+\end{document}
