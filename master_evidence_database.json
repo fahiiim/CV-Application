@@ -14,7 +14,7 @@
       "institution": "Green University of Bangladesh",
       "degree": "Bachelor of Science in Computer Science & Engineering",
       "major": "Artificial Intelligence and Machine Learning",
-      "dates": "Feb 2022 \u2013 Jan 2026",
+      "dates": "Feb 2022 – Jan 2026",
       "location": "Dhaka, Bangladesh",
       "focus": "Deep Learning, Transformer Architectures, Computer Vision (Swin Transformer + XAI), Systems Engineering"
     }
@@ -59,11 +59,11 @@
       "company": "SparkTech Agency",
       "role": "Mid-Level AI / Software & AI Systems Engineer",
       "promotion": "Promoted from Junior AI Engineer, July 2026 (within 10 months)",
-      "dates": "Sept 2025 \u2013 Present",
+      "dates": "Sept 2025 – Present",
       "location": "Dhaka, Bangladesh",
       "bullets": [
         {
-          "text": "Directed a 3\u20134-engineer team shipping 20+ production AI, search, and backend systems (RAG, OCR pipelines, NLP, CV) from design to client delivery.",
+          "text": "Directed a 3–4-engineer team shipping 20+ production AI, search, and backend systems (RAG, OCR pipelines, NLP, CV) from design to client delivery.",
           "xyz": "Delivered 20+ client production systems across US and European clients by leading a team of 3-4 engineers across full software development lifecycles.",
           "categories": [
             "leadership",
@@ -98,8 +98,8 @@
     },
     {
       "company": "GUB Mars Rover Team",
-      "role": "Software Engineer \u2014 Embedded C/C++ & Telemetry Systems",
-      "dates": "May 2024 \u2013 Aug 2025",
+      "role": "Software Engineer — Embedded C/C++ & Telemetry Systems",
+      "dates": "May 2024 – Aug 2025",
       "location": "Dhaka, Bangladesh",
       "bullets": [
         {
@@ -363,6 +363,74 @@
         "backend",
         "open-source",
         "async"
+      ]
+    },
+    {
+      "name": "RatedDocs",
+      "subtitle": "AI Healthcare Marketplace & Statutory Verification SaaS",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Computer Vision",
+        "Pydantic",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "Redis"
+      ],
+      "urls": {
+        "live": "https://rateddocs.com"
+      },
+      "bullets": [
+        "Architected an AI-powered healthcare SaaS platform (rateddocs.com) automating a 6-step statutory credential verification and document audit pipeline for international clinics, auditing licenses, sterilization protocols, and authentic case histories.",
+        "Engineered an automated computer vision cosmetic smile preview pipeline performing facial landmark alignment and realistic dental transformation rendering on patient photos.",
+        "Built high-concurrency FastAPI asynchronous backend microservices and decoupled background task queues, maintaining sub-120ms API latency under concurrent patient intake traffic.",
+        "Engineered an intelligent clinical candidacy matching and recommendation engine pairing international patients with verified providers based on procedure requirements, budget, and destination criteria."
+      ],
+      "categories": [
+        "saas",
+        "ai",
+        "computer-vision",
+        "fastapi",
+        "verification",
+        "python",
+        "cloud"
+      ]
+    },
+    {
+      "name": "GoCustify",
+      "subtitle": "Next-Gen AI CRM & Voice-to-Workflow Automation Platform",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Telnyx VoIP",
+        "Conversational AI",
+        "Pydantic",
+        "PostgreSQL",
+        "Docker",
+        "Stripe"
+      ],
+      "urls": {
+        "live": "https://gocustify.com"
+      },
+      "bullets": [
+        "Architected an enterprise AI CRM platform competing with GoHighLevel, featuring 24/7 AI voice receptionists, autonomous multi-channel lead engagement, and pipeline automation.",
+        "Engineered the SmartFlow voice-to-workflow engine translating natural speech and conversation into executable multi-step actions (invoicing, scheduling, contract e-signing, and pipeline stage updates).",
+        "Built asynchronous FastAPI microservices and Telnyx VoIP webhooks handling real-time call bridging, conversational AI receptionists, and automated multi-channel follow-up sequences."
+      ],
+      "categories": [
+        "crm",
+        "saas",
+        "ai-agents",
+        "fastapi",
+        "voice-ai",
+        "telephony",
+        "automation"
       ]
     }
   ]
