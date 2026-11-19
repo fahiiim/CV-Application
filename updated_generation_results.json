@@ -169,5 +169,23 @@
     "score": 100,
     "chars": 7250,
     "clearance": 30.00360107421875
+  },
+  {
+    "id": "JOB-020",
+    "company": "Kranti Robotics",
+    "title": "AI Engineer - Machine Vision & Robotics",
+    "url": "https://kranti.ca",
+    "score": 100,
+    "chars": 7200,
+    "clearance": 30.8935546875
+  },
+  {
+    "id": "JOB-021",
+    "company": "micro1",
+    "title": "Junior Machine Learning Engineer - Model Development & Coding Agents",
+    "url": "https://www.micro1.ai",
+    "score": 100,
+    "chars": 7047,
+    "clearance": 42.3505859375
   }
 ]
