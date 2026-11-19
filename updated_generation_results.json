@@ -5,7 +5,7 @@
     "title": "Python and Kubernetes Software Engineer - AI/ML & Analytics",
     "url": "https://canonical.com/careers/all",
     "score": 95,
-    "chars": 4271,
+    "chars": 7231,
     "clearance": 33.6375732421875
   },
   {
@@ -14,7 +14,7 @@
     "title": "Machine Learning Engineer - Open Source",
     "url": "https://huggingface.co/careers",
     "score": 98,
-    "chars": 3933,
+    "chars": 6934,
     "clearance": 54.10260009765625
   },
   {
@@ -23,7 +23,7 @@
     "title": "Backend AI Engineer",
     "url": "https://automattic.com/work-with-us/",
     "score": 95,
-    "chars": 4049,
+    "chars": 7094,
     "clearance": 41.63958740234375
   },
   {
@@ -32,7 +32,7 @@
     "title": "Backend Engineer, Python",
     "url": "https://www.indeed.com/q-worldwide-remote-python-backend-jobs.html",
     "score": 99,
-    "chars": 4136,
+    "chars": 7171,
     "clearance": 41.340576171875
   },
   {
@@ -41,8 +41,8 @@
     "title": "Senior Machine Learning Engineer / LLM Engineer",
     "url": "https://cast.ai/careers/",
     "score": 95,
-    "chars": 4065,
-    "clearance": 42.1475830078125
+    "chars": 7038,
+    "clearance": 30.19256591796875
   },
   {
     "id": "JOB-006",
@@ -50,7 +50,7 @@
     "title": "Senior ML Engineer (Python)",
     "url": "https://proxify.io/jobs",
     "score": 97,
-    "chars": 4014,
+    "chars": 7006,
     "clearance": 41.63958740234375
   },
   {
@@ -59,7 +59,7 @@
     "title": "Backend Engineer",
     "url": "https://deepshot.ai/careers",
     "score": 95,
-    "chars": 4160,
+    "chars": 7046,
     "clearance": 29.38555908203125
   },
   {
@@ -68,7 +68,7 @@
     "title": "Remote AI ML Engineer",
     "url": "https://remoteok.com/remote-jobs/remote-ai-ml-engineer-docusketch-1137619",
     "score": 96,
-    "chars": 4036,
+    "chars": 7046,
     "clearance": 30.3865966796875
   },
   {
@@ -77,7 +77,7 @@
     "title": "AI / ML Engineer",
     "url": "https://www.toptal.com/careers",
     "score": 99,
-    "chars": 4090,
+    "chars": 7066,
     "clearance": 52.985595703125
   },
   {
@@ -86,7 +86,88 @@
     "title": "Remote Senior Software Engineer",
     "url": "https://phaidra.ai/careers",
     "score": 97,
-    "chars": 4519,
+    "chars": 7036,
     "clearance": 17.5435791015625
+  },
+  {
+    "id": "JOB-011",
+    "company": "MacroCoderz",
+    "title": "Python Developer",
+    "url": "https://macrocoderz.com/careers/python-developer",
+    "score": 100,
+    "chars": 6852,
+    "clearance": 65.54058837890625
+  },
+  {
+    "id": "JOB-012",
+    "company": "MixRank",
+    "title": "Junior Software Engineer - Remote (Global)",
+    "url": "https://www.ycombinator.com/companies/mixrank/jobs/Fnwsojk-junior-software-engineer-remote-global-full-time",
+    "score": 100,
+    "chars": 6979,
+    "clearance": 53.40557861328125
+  },
+  {
+    "id": "JOB-013",
+    "company": "Evaboot",
+    "title": "Agentic Python Engineer",
+    "url": "https://zrobinz.github.io/evaboot-jobs/",
+    "score": 100,
+    "chars": 7240,
+    "clearance": 17.361572265625
+  },
+  {
+    "id": "JOB-014",
+    "company": "HFT Architecture",
+    "title": "Junior Machine Learning Engineer",
+    "url": "https://hftarchitecture.com/careers/junior-machine-learning-engineer",
+    "score": 100,
+    "chars": 7126,
+    "clearance": 29.49560546875
+  },
+  {
+    "id": "JOB-015",
+    "company": "Softwise",
+    "title": "AI Engineer, Recommendation Systems",
+    "url": "https://softwise.app/join-us/ai-engineer-recommendation-systems",
+    "score": 100,
+    "chars": 7079,
+    "clearance": 41.95855712890625
+  },
+  {
+    "id": "JOB-016",
+    "company": "TensorOps",
+    "title": "Mid AI Engineer",
+    "url": "https://trulyremotework.com/jobs/mid-level-ai-engineer-tensorops",
+    "score": 100,
+    "chars": 6979,
+    "clearance": 64.93157958984375
+  },
+  {
+    "id": "JOB-017",
+    "company": "ClearML",
+    "title": "Junior Machine Learning Engineer",
+    "url": "https://clear.ml/careers",
+    "score": 100,
+    "chars": 7007,
+    "clearance": 53.5855712890625
+  },
+  {
+    "id": "JOB-018",
+    "company": "Ecowind",
+    "title": "Backend (Python) / Data Infrastructure Engineer",
+    "url": "https://djinni.co/jobs/857394-backend-python-data-infrastructure-engineer/",
+    "score": 100,
+    "chars": 7108,
+    "clearance": 29.49560546875
+  },
+  {
+    "id": "JOB-019",
+    "company": "Xperteez Technology",
+    "title": "Junior Machine Learning Engineer (contract project)",
+    "url": "https://remotive.com/remote/jobs/artificial-intelligence/junior-machine-learning-engineer-6594252",
+    "score": 100,
+    "chars": 7250,
+    "clearance": 30.00360107421875
   }
 ]
