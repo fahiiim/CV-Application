@@ -1,6 +1,6 @@
 # Master Portfolio of Individually Tailored FAANG-Quality LaTeX CVs (Senior Recruiter Review)
 
-This repository contains **21 individually tailored, recruiter-ready, one-page LaTeX CVs** engineered for the shortlisted positions in `European_Remote_AI_Jobs_Tracker.xlsx`.
+This repository contains **22 individually tailored, recruiter-ready, one-page LaTeX CVs** engineered for the shortlisted positions in `European_Remote_AI_Jobs_Tracker.xlsx`.
 
 Every resume has been rigorously scrutinized and optimized from the perspective of a **Senior Technical Recruiter and Hiring Manager at Google, Meta, Amazon, and Microsoft**, with zero tolerance for recruiter red flags, ambiguous phrasing, or wasted page space.
 
@@ -55,6 +55,7 @@ Every resume has been rigorously scrutinized and optimized from the perspective 
 | **JOB-019** | **Xperteez Technology** | Junior Machine Learning Engineer | Model Optimization, Evaluation & Inference Pipelines | **100/100** | PASS (96.4% Fill) | [`resume.tex`](JOB-019_Xperteez/resume.tex) $\vert$ [`resume.pdf`](JOB-019_Xperteez/resume.pdf) $\vert$ [`evaluation.md`](JOB-019_Xperteez/evaluation.md) |
 | **JOB-020** | **Kranti Robotics** | AI Engineer (Dhaka R&D) | Machine Vision, Robot Arms & Edge Inference | **100/100** | PASS (96.3% Fill) | [`resume.tex`](JOB-020_Kranti_Robotics/resume.tex) $\vert$ [`resume.pdf`](JOB-020_Kranti_Robotics/resume.pdf) $\vert$ [`evaluation.md`](JOB-020_Kranti_Robotics/evaluation.md) |
 | **JOB-021** | **micro1** | Junior Machine Learning Engineer | Model Development, Numerical Computing & Coding Agents | **100/100** | PASS (95.0% Fill) | [`resume.tex`](JOB-021_micro1/resume.tex) $\vert$ [`resume.pdf`](JOB-021_micro1/resume.pdf) $\vert$ [`evaluation.md`](JOB-021_micro1/evaluation.md) |
+| **JOB-022** | **iVencure LTD** | Junior AI Engineer / AI Engineer (Voice) | Real-Time Telephony, Speech Streaming & Voice Bots | **100/100** | PASS (94.9% Fill) | [`resume.tex`](JOB-022_iVencure/resume.tex) $\vert$ [`resume.pdf`](JOB-022_iVencure/resume.pdf) $\vert$ [`evaluation.md`](JOB-022_iVencure/evaluation.md) |
 
 ---
 
