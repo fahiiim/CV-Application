@@ -1,0 +1,121 @@
+\documentclass[9.5pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,left=0.45in,right=0.45in,top=0.24in,bottom=0.24in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue!70!black
+}
+
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}{0em}
+  {}[\titlerule]
+
+\titlespacing*{\section}
+  {0pt}{1.8pt}{1.0pt}
+
+\setlist[itemize]{
+  noitemsep,
+  topsep=0.4pt,
+  partopsep=0pt,
+  parsep=0.18pt,
+  leftmargin=10pt
+}
+
+\begin{document}
+
+{\centering
+    {\Large \textbf{MD. FAHIM SARKER MRIDUL}}\\[1pt]
+    \textbf{Python Backend & AI Systems Developer - FastAPI, Async Pipelines & LLM Integration}\\[1pt]
+    Dhaka, Bangladesh \;$\vert$\; \href{mailto:fahimsarker0805@gmail.com}{fahimsarker0805@gmail.com} \;$\vert$\; +880 1400-530058\\[1pt]
+    \href{https://fahimsarker.netlify.app}{fahimsarker.netlify.app} \;$\vert$\; \href{https://github.com/fahiiim}{github.com/fahiiim} \;$\vert$\; \href{https://linkedin.com/in/fahim153}{linkedin.com/in/fahim153}\par
+}
+
+\vspace{-4pt}
+\section*{Professional Summary}
+High-velocity Python Backend and AI Systems Engineer with proven expertise building production-ready FastAPI microservices, asynchronous task queues (Celery/SQS), and multi-LLM API integrations. Directed engineering of \textbf{20+ production AI and backend systems} from architectural design through client deployment. Proficient in Docker containerization, PostgreSQL schema optimization, strict Pydantic data validation, and deterministic RAG workflows. Fully equipped for async remote work and US/global time zone overlap.
+
+\section*{Technical Skills}
+\noindent
+\textbf{Languages & Backend:} Python (Asyncio, Celery, Multiprocessing), FastAPI, RESTful APIs, Pydantic, SQLAlchemy, PostgreSQL, Redis, SQL\\
+\textbf{AI & LLM Integration:} LLM APIs (OpenAI, Anthropic Claude), LangChain, Vector Search (FAISS), Deterministic RAG, Context Grounding, Prompt Chaining\\
+\textbf{Cloud & DevOps:} Docker (Multi-stage builds), AWS (ECS, SQS, S3, EC2, Lambda), Git, GitHub Actions CI/CD, Linux Administration, Bash\\
+\textbf{Reliability & Testing:} PyTest (Unit/Integration Testing), Logging & Telemetry, Latency SLAs, Pydantic Fallback Routing, Postman
+
+\section*{Professional Experience}
+\noindent
+\textbf{SparkTech Agency} \hfill Dhaka, Bangladesh\\
+\textit{Mid-Level Software & AI Systems Engineer} \hfill Sept 2025 - Present
+\begin{itemize}
+    \item Promoted to Mid-Level to direct a 4-engineer systems team shipping \textbf{20+ production AI, search, and backend systems} (hybrid search, high-concurrency OCR, RAG) with strict FastAPI/Pydantic validation schemas.
+    \item Architected asynchronous Celery and background worker task pipelines handling bursty document and AI workloads, enforcing deterministic fallback routing and sub-120ms API response SLAs.
+    \item Cut deployment cycle time by \textbf{40\%} across staging and production environments by standardizing multi-stage Docker builds, automated GitHub Actions CI/CD workflows, and AWS ECS configurations.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{GUB Mars Rover Team} \hfill Dhaka, Bangladesh\\
+\textit{Software Engineer - Embedded C/C++ & Telemetry Systems} \hfill May 2024 - Aug 2025
+\begin{itemize}
+    \item Engineered low-latency \textbf{C/C++ and Python} serial telemetry daemons and real-time socket communication for the CLADOS Mars rover, placing \textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Live Projects}
+\noindent
+\textbf{RightRoute - Live Freight Route & Document Intelligence Platform} \hfill \href{https://getrightroute.app}{getrightroute.app}
+\begin{itemize}
+    \item Automated the extraction of complex U.S. freight permit documents into validated route schemas using \textbf{AWS Textract} and custom NLP parsers, achieving \textbf{99\% extraction accuracy} for commercial logistics.
+    \item Decoupled synchronous FastAPI endpoints from heavy background document ingestion via dead-lettered \textbf{AWS SQS queues, auto-scaled ECS workers, and S3}, maintaining $<$120ms gateway response times.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{Casezys Legal Search Engine - Production Vector Retrieval Service} \hfill \href{https://casezys.com}{casezys.com}
+\begin{itemize}
+    \item Engineered a production legal search and retrieval engine using FAISS dense vector indexing and strict span-grounded citation verification, achieving \textbf{100\% answer relevance} and zero hallucination.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{RatedDocs - AI Healthcare SaaS \& FastAPI Backend} \hfill \href{https://rateddocs.com}{rateddocs.com}
+\begin{itemize}
+    \item Built a production AI healthcare SaaS platform featuring an automated 6-step provider verification engine and computer vision cosmetic smile preview pipeline served via asynchronous FastAPI microservices with $<$120ms latency.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Open Source Contributions}
+\noindent
+\textbf{TypoFormer (TyPoTaKer) - Low-Latency Neural Inference Engine} \hfill \href{https://huggingface.co/fahiiim/TypoFormer}{huggingface.co} $\vert$ \href{https://github.com/fahiiim/TyPoTaKer}{github.com}
+\begin{itemize}
+    \item Trained a \textbf{94M-parameter} character-aware hybrid Transformer from scratch, achieving \textbf{9.97ms CPU inference latency} (3.8$\times$ speedup and $\sim$70\% RAM reduction vs.\ FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{NeuroGebra - Open-Source Symbolic-Neural Framework} \hfill \href{https://pypi.org/project/neurogebra/}{pypi.org} $\vert$ \href{https://neurogebra.readthedocs.io}{neurogebra.readthedocs.io}
+\begin{itemize}
+    \item Architected and published an open-source framework for mathematical compilation and computational graph visualization, adopted by \textbf{9,000+ researchers, students, and engineers} globally.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Education}
+\noindent
+\textbf{Green University of Bangladesh} \hfill Dhaka, Bangladesh\\
+\textit{Bachelor of Science in Computer Science \& Engineering (Major: AI \& ML)} \hfill Feb 2022 - Jan 2026
+
+\section*{Certifications \& Awards}
+\begin{itemize}
+    \item \textbf{AWS Certified AI Practitioner} - Amazon Web Services (AWS)
+    \item \textbf{HackerRank Certified Software Engineer} - Credential ID: \href{https://www.hackerrank.com/certificates/23731ba77521}{23731ba77521}
+    \item \textbf{Honors \& Awards:} 1st Runner-Up, Comilla Univ.\ Data Science Hackathon (Nov 2024) $\vert$ Best Innovation Award for ViolaShield (Jan 2025) $\vert$ Finalist, NSU FutureBuilders \& BUBT AI Competition
+\end{itemize}
+
+\end{document}
