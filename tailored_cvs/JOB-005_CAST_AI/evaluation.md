@@ -37,7 +37,7 @@
 ## 3. Strongest Matching Qualifications
 - **Quantized 94M Transformer to INT8, achieving 9.97ms CPU inference (3.8x speedup, ~70% RAM reduction in TypoFormer)**
 - **Decoupled asynchronous worker queues under heavy burst traffic (RightRoute AWS SQS/ECS, <120ms latency)**
-- **Resource-efficient architecture cutting browser CPU/RAM overhead by >80% (Neutron waterfall)**
+- **Resource-efficient architecture cutting browser CPU/RAM overhead by >80% (RatedDocs waterfall)**
 - **Automated CI regression harnesses enforcing latency SLAs and precision/recall thresholds**
 - **Low-latency systems engineering with C/C++, POSIX sockets, and Linux profiling**
 
