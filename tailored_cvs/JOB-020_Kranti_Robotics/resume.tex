@@ -1,0 +1,122 @@
+\documentclass[9.5pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,left=0.45in,right=0.45in,top=0.23in,bottom=0.23in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue!70!black
+}
+
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}{0em}
+  {}[\titlerule]
+
+\titlespacing*{\section}
+  {0pt}{1.8pt}{1.0pt}
+
+\setlist[itemize]{
+  noitemsep,
+  topsep=0.4pt,
+  partopsep=0pt,
+  parsep=0.15pt,
+  leftmargin=10pt
+}
+
+\begin{document}
+
+{\centering
+    {\Large \textbf{MD. FAHIM SARKER MRIDUL}}\\[1pt]
+    \textbf{AI \& Computer Vision Systems Engineer - Robotics Perception \& Edge Deployment}\\[1pt]
+    Dhaka, Bangladesh \;$\vert$\; \href{mailto:fahimsarker0805@gmail.com}{fahimsarker0805@gmail.com} \;$\vert$\; +880 1400-530058\\[1pt]
+    \href{https://fahimsarker.netlify.app}{fahimsarker.netlify.app} \;$\vert$\; \href{https://github.com/fahiiim}{github.com/fahiiim} \;$\vert$\; \href{https://linkedin.com/in/fahim153}{linkedin.com/in/fahim153}\par
+}
+
+\vspace{-4.5pt}
+\section*{Professional Summary}
+Hands-on AI and Computer Vision Systems Engineer based in Dhaka specializing in PyTorch deep learning, industrial camera pipelines, and low-latency edge deployment for robotics. Experienced in training detection, segmentation, and tracking models, optimizing real-time inference ($<$12ms) via ONNX Runtime and INT8 quantization, and integrating sensor-to-actuator control loops on robotic hardware (CLADOS Mars Rover - 6th Worldwide, 1st in Asia). Shipped 20+ production AI systems with robust Docker containerization, OpenCV, FastAPI, and data versioning.
+
+\section*{Technical Skills}
+\noindent
+\textbf{Computer Vision \& Robotics:} PyTorch, OpenCV, Object Detection \& Segmentation (YOLO, Swin Transformer), Tracking, ROS 2, Sensor Fusion, Grad-CAM (XAI)\\
+\textbf{Edge AI \& Low-Latency Inference:} ONNX Runtime, TensorRT Optimization, Dynamic INT8 Quantization, Embedded C/C++, Linux, POSIX Sockets, GPU Training\\
+\textbf{Data Pipelines \& MLOps:} ETL/ELT Pipelines, Image/Video Preprocessing, NumPy, Pandas, SQL, Docker (Multi-stage), Git, PyTest, MLflow, W\&B Telemetry\\
+\textbf{Backend \& Systems Integration:} Python (Asyncio), FastAPI, REST APIs, Redis, AWS (S3, ECS), Real-Time Serial Daemons, Hardware-in-the-Loop Testing
+
+\section*{Professional Experience}
+\noindent
+\textbf{SparkTech Agency} \hfill Dhaka, Bangladesh\\
+\textit{Mid-Level Software \& AI Systems Engineer} \hfill Sept 2025 - Present
+\begin{itemize}
+    \item Direct a 4-engineer systems team shipping \textbf{20+ production AI, vision, and backend systems} (real-time image transformations, high-concurrency OCR, RAG) from raw data pipelines through containerized client deployment.
+    \item Built automated data validation and evaluation test suites for computer vision and multimodal APIs, enforcing latency SLAs ($<$120ms), strict \textbf{Pydantic} validation, and deterministic fallback routing.
+    \item Accelerated microservice and model deployment cycles by \textbf{40\%} across production environments by standardizing multi-stage Docker builds, GPU training environments, and CI/CD workflows.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{GUB Mars Rover Team} \hfill Dhaka, Bangladesh\\
+\textit{Software Engineer - Embedded C/C++ \& Telemetry Systems} \hfill May 2024 - Aug 2025
+\begin{itemize}
+    \item Engineered low-latency \textbf{C/C++ and Python} serial telemetry daemons, industrial camera streams, and real-time control loops over POSIX sockets for the CLADOS Mars rover, placing \textbf{6th Worldwide and 1st in Asia} at the 2026 Anatolian Rover Challenge.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Live Projects}
+\noindent
+\textbf{Thesis: Swin Transformer \& Vision Perception for Industrial Defect Inspection}
+\begin{itemize}
+    \item Trained and benchmarked a \textbf{Swin Transformer} architecture for fine-grained image perception and surface defect segmentation in PyTorch, establishing robust spatial feature attribution baselines.
+    \item Integrated Explainable AI (XAI) feature attribution maps via Grad-CAM to localize spatial decision boundaries, improving visual defect interpretability and classification accuracy.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{RatedDocs - Multimodal AI SaaS \& Computer Vision Pipeline} \hfill \href{https://rateddocs.com}{rateddocs.com}
+\begin{itemize}
+    \item Architected an AI SaaS platform featuring a computer vision transformation pipeline performing automated facial landmark detection and realistic aesthetic rendering on user-submitted photos.
+    \item Engineered asynchronous FastAPI microservices and background task queues, decoupling heavy image transformation workloads to sustain $<$120ms API latency under concurrent load.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{RightRoute - Computer Vision OCR \& Spatial Extraction Pipeline} \hfill \href{https://getrightroute.app}{getrightroute.app}
+\begin{itemize}
+    \item Automated extraction and spatial document layout analysis of complex transport permits into validated route schemas using \textbf{AWS Textract} and custom vision preprocessing, achieving \textbf{99\% extraction precision}.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Open Source Contributions}
+\noindent
+\textbf{TypoFormer (TyPoTaKer) - Low-Latency Neural Inference Engine} \hfill \href{https://huggingface.co/fahiiim/TypoFormer}{huggingface.co} $\vert$ \href{https://github.com/fahiiim/TyPoTaKer}{github.com}
+\begin{itemize}
+    \item Trained a \textbf{94M-parameter} character-aware hybrid Transformer from scratch, achieving \textbf{9.97ms CPU inference latency} (3.8$\times$ speedup and $\sim$70\% RAM reduction vs.\ FP32) via ONNX Runtime graph fusion and dynamic INT8 quantization, with open-source model weights on Hugging Face.
+\end{itemize}
+\vspace{0.6pt}
+\noindent
+\textbf{NeuroGebra - Open-Source Symbolic-Neural Framework} \hfill \href{https://pypi.org/project/neurogebra/}{pypi.org} $\vert$ \href{https://neurogebra.readthedocs.io}{neurogebra.readthedocs.io}
+\begin{itemize}
+    \item Architected and published an open-source framework for real-time mathematical compilation and computational graph visualization, adopted by \textbf{9,000+ researchers, students, and engineers} globally as a PyTorch companion library.
+\end{itemize}
+\vspace{0.6pt}
+
+\section*{Education}
+\noindent
+\textbf{Green University of Bangladesh} \hfill Dhaka, Bangladesh\\
+\textit{Bachelor of Science in Computer Science \& Engineering (Major: AI \& ML)} \hfill Feb 2022 - Jan 2026
+
+\section*{Certifications \& Awards}
+\begin{itemize}
+    \item \textbf{AWS Certified AI Practitioner} - Amazon Web Services (AWS)
+    \item \textbf{HackerRank Certified Software Engineer} - Credential ID: \href{https://www.hackerrank.com/certificates/23731ba77521}{23731ba77521}
+    \item \textbf{Honors \& Awards:} Best Innovation Award for ViolaShield Vision AI (Jan 2025) $\vert$ 1st Runner-Up, Comilla Univ.\ Data Science Hackathon $\vert$ Finalist, NSU FutureBuilders \& BUBT AI Competition
+\end{itemize}
+
+\end{document}
