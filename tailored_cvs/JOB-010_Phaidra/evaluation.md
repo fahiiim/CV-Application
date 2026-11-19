@@ -36,7 +36,7 @@
 
 ## 3. Strongest Matching Qualifications
 - **Real-time control loops and low-latency C/C++ & Python over POSIX sockets (Mars Rover - placed 6th worldwide)**
-- **Distributed systems architecture, async scheduling, and token-bucket politeness (Neutron crawler)**
+- **Distributed systems architecture, async scheduling, and token-bucket politeness (RatedDocs AI SaaS)**
 - **Asynchronous decoupled cloud systems with dead-lettered queues (RightRoute AWS SQS/ECS)**
 - **Proven systems leadership delivering 20+ production platforms (SparkTech)**
 - **Hardware-efficient single-core CPU execution (TypoFormer: 9.97ms inference)**
