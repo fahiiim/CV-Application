@@ -1,6 +1,6 @@
 # Master Portfolio of Individually Tailored FAANG-Quality LaTeX CVs (Senior Recruiter Review)
 
-This repository contains **10 individually tailored, recruiter-ready, one-page LaTeX CVs** engineered for the shortlisted positions in `European_Remote_AI_Jobs_Tracker.xlsx`.
+This repository contains **19 individually tailored, recruiter-ready, one-page LaTeX CVs** engineered for the shortlisted positions in `European_Remote_AI_Jobs_Tracker.xlsx`.
 
 Every resume has been rigorously scrutinized and optimized from the perspective of a **Senior Technical Recruiter and Hiring Manager at Google, Meta, Amazon, and Microsoft**, with zero tolerance for recruiter red flags, ambiguous phrasing, or wasted page space.
 
@@ -44,6 +44,15 @@ Every resume has been rigorously scrutinized and optimized from the perspective 
 | **JOB-008** | **DocuSketch** | Remote AI ML Engineer | Computer Vision, PyTorch & Spatial Perception | **96/100** | PASS (96.5% Fill) | [`resume.tex`](JOB-008_DocuSketch/resume.tex) $\vert$ [`resume.pdf`](JOB-008_DocuSketch/resume.pdf) $\vert$ [`evaluation.md`](JOB-008_DocuSketch/evaluation.md) |
 | **JOB-009** | **Toptal** | AI / ML Engineer | Generative AI, RAG & Cloud Architecture | **99/100** | PASS (92.2% Fill) | [`resume.tex`](JOB-009_Toptal/resume.tex) $\vert$ [`resume.pdf`](JOB-009_Toptal/resume.pdf) $\vert$ [`evaluation.md`](JOB-009_Toptal/evaluation.md) |
 | **JOB-010** | **Phaidra** | Remote Senior Software Engineer | Distributed Systems & Low-Latency Infrastructure | **97/100** | PASS (97.3% Fill) | [`resume.tex`](JOB-010_Phaidra/resume.tex) $\vert$ [`resume.pdf`](JOB-010_Phaidra/resume.pdf) $\vert$ [`evaluation.md`](JOB-010_Phaidra/evaluation.md) |
+| **JOB-011** | **MacroCoderz** | Python Developer | FastAPI, Async Pipelines & LLM Integration | **100/100** | PASS (92.5% Fill) | [`resume.tex`](JOB-011_MacroCoderz/resume.tex) $\vert$ [`resume.pdf`](JOB-011_MacroCoderz/resume.pdf) $\vert$ [`evaluation.md`](JOB-011_MacroCoderz/evaluation.md) |
+| **JOB-012** | **MixRank** | Junior Software Engineer - Remote (Global) | Python, Distributed Crawling & ETL Pipelines | **100/100** | PASS (93.8% Fill) | [`resume.tex`](JOB-012_MixRank/resume.tex) $\vert$ [`resume.pdf`](JOB-012_MixRank/resume.pdf) $\vert$ [`evaluation.md`](JOB-012_MixRank/evaluation.md) |
+| **JOB-013** | **Evaboot** | Agentic Python Engineer | Autonomous Workflows, LLMs & Tool-Calling | **100/100** | PASS (95.1% Fill) | [`resume.tex`](JOB-013_Evaboot/resume.tex) $\vert$ [`resume.pdf`](JOB-013_Evaboot/resume.pdf) $\vert$ [`evaluation.md`](JOB-013_Evaboot/evaluation.md) |
+| **JOB-014** | **HFT Architecture** | Junior Machine Learning Engineer | High-Performance Inference, Model Validation & Systems | **100/100** | PASS (96.5% Fill) | [`resume.tex`](JOB-014_HFT_Architecture/resume.tex) $\vert$ [`resume.pdf`](JOB-014_HFT_Architecture/resume.pdf) $\vert$ [`evaluation.md`](JOB-014_HFT_Architecture/evaluation.md) |
+| **JOB-015** | **Softwise** | AI Engineer, Recommendation Systems | Recommender Systems, Vector Search & Production APIs | **100/100** | PASS (95.1% Fill) | [`resume.tex`](JOB-015_Softwise/resume.tex) $\vert$ [`resume.pdf`](JOB-015_Softwise/resume.pdf) $\vert$ [`evaluation.md`](JOB-015_Softwise/evaluation.md) |
+| **JOB-016** | **TensorOps** | Mid AI Engineer | Production LLM Systems, RAG & MLOps Infrastructure | **100/100** | PASS (92.6% Fill) | [`resume.tex`](JOB-016_TensorOps/resume.tex) $\vert$ [`resume.pdf`](JOB-016_TensorOps/resume.pdf) $\vert$ [`evaluation.md`](JOB-016_TensorOps/evaluation.md) |
+| **JOB-017** | **ClearML** | Junior Machine Learning Engineer | MLOps, Experiment Tracking & Deep Learning Systems | **100/100** | PASS (93.7% Fill) | [`resume.tex`](JOB-017_ClearML/resume.tex) $\vert$ [`resume.pdf`](JOB-017_ClearML/resume.pdf) $\vert$ [`evaluation.md`](JOB-017_ClearML/evaluation.md) |
+| **JOB-018** | **Ecowind** | Backend (Python) / Data Infrastructure Engineer | High-Throughput APIs, Query Optimization & ETL | **100/100** | PASS (96.6% Fill) | [`resume.tex`](JOB-018_Ecowind/resume.tex) $\vert$ [`resume.pdf`](JOB-018_Ecowind/resume.pdf) $\vert$ [`evaluation.md`](JOB-018_Ecowind/evaluation.md) |
+| **JOB-019** | **Xperteez Technology** | Junior Machine Learning Engineer | Model Optimization, Evaluation & Inference Pipelines | **100/100** | PASS (96.4% Fill) | [`resume.tex`](JOB-019_Xperteez/resume.tex) $\vert$ [`resume.pdf`](JOB-019_Xperteez/resume.pdf) $\vert$ [`evaluation.md`](JOB-019_Xperteez/evaluation.md) |
 
 ---
 
