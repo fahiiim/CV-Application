@@ -38,7 +38,7 @@
 - **Production Python backend engineering (FastAPI, Asyncio, Pydantic, SQLAlchemy, PostgreSQL)**
 - **Live commercial cloud architecture with AWS SQS/ECS queue decoupling (RightRoute, <120ms latency)**
 - **Zero-hallucination RAG vector retrieval with article-level AST chunking (Casezys)**
-- **Hybrid lexical-vector search with Reciprocal Rank Fusion (Neutron, <50ms retrieval)**
+- **Hybrid lexical-vector search with Reciprocal Rank Fusion (RatedDocs, <50ms retrieval)**
 - **Team leadership shipping 20+ production client systems with automated CI/CD**
 
 ---
