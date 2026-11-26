@@ -1,6 +1,6 @@
 # Master Portfolio of Individually Tailored FAANG-Quality LaTeX CVs (Senior Recruiter Review)
 
-This repository contains **24 individually tailored, recruiter-ready, one-page LaTeX CVs** engineered for the shortlisted positions in `European_Remote_AI_Jobs_Tracker.xlsx`.
+This repository contains **25 individually tailored, recruiter-ready, one-page LaTeX CVs** engineered for the shortlisted positions in `European_Remote_AI_Jobs_Tracker.xlsx`.
 
 Every resume has been rigorously scrutinized and optimized from the perspective of a **Senior Technical Recruiter and Hiring Manager at Google, Meta, Amazon, and Microsoft**, with zero tolerance for recruiter red flags, ambiguous phrasing, or wasted page space.
 
@@ -58,6 +58,7 @@ Every resume has been rigorously scrutinized and optimized from the perspective 
 | **JOB-022** | **iVencure LTD** | Junior AI Engineer / AI Engineer (Voice) | Real-Time Telephony, Speech Streaming & Voice Bots | **100/100** | PASS (94.9% Fill) | [`resume.tex`](JOB-022_iVencure/resume.tex) $\vert$ [`resume.pdf`](JOB-022_iVencure/resume.pdf) $\vert$ [`evaluation.md`](JOB-022_iVencure/evaluation.md) |
 | **JOB-023** | **Meghna Group of Industries** | AI Engineer / Applied AI Developer, IT | Enterprise APIs, Document OCR, RAG & Vision | **100/100** | PASS (95.0% Fill) | [`resume.tex`](JOB-023_Meghna_Group/resume.tex) $\vert$ [`resume.pdf`](JOB-023_Meghna_Group/resume.pdf) $\vert$ [`evaluation.md`](JOB-023_Meghna_Group/evaluation.md) |
 | **JOB-024** | **Zenov BPO** | AI Specialist / Architect | Enterprise Automation, LLMs & Multi-Agent Systems | **100/100** | PASS (96.3% Fill) | [`resume.tex`](JOB-024_Zenov_BPO/resume.tex) $\vert$ [`resume.pdf`](JOB-024_Zenov_BPO/resume.pdf) $\vert$ [`evaluation.md`](JOB-024_Zenov_BPO/evaluation.md) |
+| **JOB-025** | **House of Kletos** | Full-Stack Software Engineer (Contract, Remote) | React, TypeScript, Tailwind, FastAPI/Node.js & Automation | **100/100** | PASS (95.1% Fill) | [`resume.tex`](JOB-025_House_of_Kletos/resume.tex) $\vert$ [`resume.pdf`](JOB-025_House_of_Kletos/resume.pdf) $\vert$ [`evaluation.md`](JOB-025_House_of_Kletos/evaluation.md) |
 
 ---
 
